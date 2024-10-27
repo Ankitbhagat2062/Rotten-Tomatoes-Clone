@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video id="myVideo" src="video-agatha.mp4" controls autoplay></video>
+    <script>
+        const video = document.getElementById("myVideo");
+        video.muted = true;
+        video.play().catch(error => {
+            console.error("Autoplay was prevented:", error);
+        });
+    </script>
+</body>
+</html>
