@@ -136,13 +136,7 @@ function rotateContent(sectionSelector, data) {
 }
 
 // Initialize rotation for each section
-document.addEventListener('DOMContentLoaded', () => {
-    rotateContent('.frightful-favorites', frightfulFavoritesData);
-    rotateContent('.now-in-theaters', nowInTheatersData);
-    rotateContent('.latest-in-streaming', latestInStreamingData);
-    rotateContent('.tv-shows', tvShowsData);
-    rotateContent('.all-time-favorites', allTimeFavoritesData);
-});
+
 // Function to rotate through the movie data for the all-time favorites section specifically with unique links
 function rotateAllTimeFavoritesContent(sectionSelector, data) {
     const sectionContent = document.querySelector(`${sectionSelector} .section-content`);
@@ -186,60 +180,10 @@ function rotateAllTimeFavoritesContent(sectionSelector, data) {
     }, 3000);
 }
 
-// Initialize rotation specifically for the All Time Favorites section
-document.addEventListener('DOMContentLoaded', () => {
-    rotateAllTimeFavoritesContent('.all-time-favorites', allTimeFavoritesData);
-});
-// General function to rotate content for any section with a specific data set
-function rotateSectionContent(sectionSelector, data) {
-    const sectionContent = document.querySelector(`${sectionSelector} .section-content`);
-    const movieCards = sectionContent.querySelectorAll('.movie-card');
 
-    let currentIndex = 0;
-
-    // Update content every second
-    setInterval(() => {
-        movieCards.forEach((card, index) => {
-            const item = data[(currentIndex + index) % data.length]; // Rotate each card's data
-
-            // Update the image
-            const imgElement = card.querySelector('img');
-            imgElement.src = item.img;
-            imgElement.alt = item.title;
-
-            // Update the video data attribute
-            card.setAttribute('data-video', item.video);
-
-            // Update the title
-            const titleElement = card.querySelector('p');
-            titleElement.textContent = item.title;
-
-            // Update additional movie info (for sections with ratings, etc.)
-            const movieInfoElement = card.querySelector('.movie-info');
-            if (movieInfoElement) {
-                movieInfoElement.innerHTML = `
-                    <div class="ratings">
-                        <span class="audience-score">🍅${item.audienceScore || ''}</span>
-                        <span class="critic-score">🍿${item.criticScore || ''}</span>
-                    </div>
-                    <p class="title">${item.title}</p>
-                    <button class="watchlist-btn" onclick="window.open('${item.watchlistLink}', '_blank')">+ WATCHLIST</button>
-                `;
-            }
-        });
-
-        // Move to the next set of items in the data array
-        currentIndex = (currentIndex + 1) % data.length;
-    }, 3000);
-}
 
 // Initialize rotation for each section
-document.addEventListener('DOMContentLoaded', () => {
-    rotateSectionContent('.tv-shows', tvShowsData);
-    rotateSectionContent('.latest-in-streaming', latestInStreamingData);
-    rotateSectionContent('.now-in-theaters', nowInTheatersData);
-    rotateSectionContent('.all-time-favorites', allTimeFavoritesData);
-});
+
 let isSearching = false;
 let rotationIntervals = [];
 
@@ -283,60 +227,6 @@ function rotateSectionContent(sectionSelector, data) {
     rotationIntervals.push(intervalId);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    rotateSectionContent('.tv-shows', tvShowsData);
-    rotateSectionContent('.latest-in-streaming', latestInStreamingData);
-    rotateSectionContent('.now-in-theaters', nowInTheatersData);
-    rotateSectionContent('.all-time-favorites', allTimeFavoritesData);
-
-    const searchInput = document.getElementById('search-input');
-    const searchResults = document.getElementById('search-results');
-    const allSections = document.querySelectorAll('.section');
-
-    searchInput.addEventListener('input', function() {
-        const searchTerm = searchInput.value.toLowerCase();
-        isSearching = searchTerm.length > 0;
-
-        if (isSearching) {
-            // Stop content rotation
-            rotationIntervals.forEach(clearInterval);
-
-            // Show search results container and clear previous results
-            searchResults.style.display = 'block';
-            searchResults.innerHTML = ''; 
-
-            // Hide all sections
-            allSections.forEach(section => section.classList.add('hidden'));
-
-            // Find and display matching movie cards
-            const allMovieCards = document.querySelectorAll('.movie-card');
-            let foundMatch = false;
-            allMovieCards.forEach(card => {
-                const title = card.querySelector('p').textContent.toLowerCase();
-                if (title.includes(searchTerm)) {
-                    const clone = card.cloneNode(true);
-                    searchResults.appendChild(clone);
-                    foundMatch = true;
-                }
-            });
-
-            if (!foundMatch) {
-                searchResults.innerHTML = `<p>No results found for "${searchTerm}".</p>`;
-            }
-        } else {
-            // Resume content rotation
-            rotationIntervals = [];
-            rotateSectionContent('.tv-shows', tvShowsData);
-            rotateSectionContent('.latest-in-streaming', latestInStreamingData);
-            rotateSectionContent('.now-in-theaters', nowInTheatersData);
-            rotateSectionContent('.all-time-favorites', allTimeFavoritesData);
-
-            // Hide search results container and show all sections
-            searchResults.style.display = 'none';
-            allSections.forEach(section => section.classList.remove('hidden'));
-        }
-    });
-});
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
@@ -393,5 +283,12 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("Removed 'column-layout' class from header.");
         }
     });
+       
+    rotateAllTimeFavoritesContent('.all-time-favorites', allTimeFavoritesData);
+    rotateContent('.frightful-favorites', frightfulFavoritesData);    
+    rotateContent('.now-in-theaters', nowInTheatersData);
+    rotateContent('.latest-in-streaming', latestInStreamingData);
+    rotateContent('.tv-shows', tvShowsData);
+    rotateContent('.all-time-favorites', allTimeFavoritesData);
 });
 
