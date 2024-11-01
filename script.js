@@ -1,15 +1,27 @@
+document.addEventListener('DOMContentLoaded', () => {
 // Slideshow functionality
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
 
 function showSlide(index) {
+    console.log(`Showing slide at index: ${index}`);
+    console.log(slides[index], dots[index]);
+    if (index >= slides.length || index >= dots.length) {
+        console.warn(`Index ${index} is out of bounds.`);
+        return;
+    }
+
     slides.forEach(slide => slide.classList.remove('active'));
     dots.forEach(dot => dot.classList.remove('active'));
+
     slides[index].classList.add('active');
     dots[index].classList.add('active');
     currentSlide = index;
 }
+
+console.log(slides); // Check the length and elements
+console.log(dots);   // Check the length and elements
 
 // Auto-slide every 5 seconds
 setInterval(() => {
@@ -227,7 +239,7 @@ function rotateSectionContent(sectionSelector, data) {
     rotationIntervals.push(intervalId);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
     const allSections = document.querySelectorAll('.section');
