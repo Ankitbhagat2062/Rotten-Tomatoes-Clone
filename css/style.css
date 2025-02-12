@@ -1,4 +1,3 @@
-
 /* General Reset */
 * {
     box-sizing: border-box;
@@ -9,28 +8,6 @@
 body {
     font-family: Arial, sans-serif;
     scrollbar-width: none;
-}
-
-.suggested-videos {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.suggested-video {
-    cursor: pointer;
-}
-
-.suggested-video img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover;
-}
-
-.suggested-video p {
-    text-align: center;
-    font-size: 14px;
 }
 
 .header,
@@ -77,8 +54,7 @@ body {
     width: 60%;
 }
 
-.search-bar input[type="text"],
-.search-bar input {
+.search-bar input[type="text"],.search-bar input {
     border: none;
     background: transparent;
     outline: none;
@@ -279,13 +255,10 @@ body {
     left: 0;
     background: rgba(0, 0, 0, 0.8);
 }
-
-.video-container iframe,
-.video-container video {
+.video-container iframe,.video-container video{
     width: 60vw;
-    height: 60vh;
+    height: 60vh;  
 }
-
 .close-modal {
     position: absolute;
     top: 10px;
@@ -294,11 +267,9 @@ body {
     color: white;
     cursor: pointer;
 }
-
-.video-container {
+.video-container{
     background-color: black;
 }
-
 /* Footer */
 .footer {
     display: flex;

@@ -169,11 +169,11 @@ window.onload = () => {
                 const movieInfoElement = card.querySelector('.movie-info');
                 if (movieInfoElement) {
                     movieInfoElement.innerHTML = `
-    <p class="rating">${item.rating}</p>
-    <p class="title">${item.name}</p>
-    <button class="watchlist-btn">
-        <a href="${item.watchlist}">+WATCHLIST</a>
-    </button>
+<p class="rating">${item.rating}</p>
+<p class="title">${item.name}</p>
+<button class="watchlist-btn">
+<a href="${item.watchlist}">+WATCHLIST</a>
+</button>
 `;
                 }
             });
@@ -244,19 +244,21 @@ window.onload = () => {
         const videoModal = document.createElement("div");
         videoModal.classList.add("video-modal");
         videoModal.innerHTML = `<div class="video-container">
-    <div class="youtube-player">
-        <div id="youtube-player"></div>
-    </div>
-    <video id="video-player" controls autoplay muted crossorigin="anonymous" style="display: none;">
-        
-        <source id="video-source" src="" type="video/mp4">
-    </video>
-    <audio id="audio-player" controls style="display: none;">
-        <source id="audio-source" src="" type="audio/mp3">
-    </audio>
-    <div class="video-details"></div>
-    <span class="close-modal">&times;</span>
-</div>`;
+            <div style="color: white;height: 100vh;;display:none;align-items: center;justify-content: center;" id="loading-screen"> 
+                <div>Loading video...</div>
+            </div>
+            <div class="youtube-player">
+                <div id="youtube-player"></div>
+            </div>
+            <video id="video-player" controls autoplay muted crossorigin="anonymous" style="display: none;">
+
+                <source id="video-source" src="" type="video/mp4">
+            </video>
+            <audio id="audio-player" controls style="display: none;">
+                <source id="audio-source" src="" type="audio/mp3">
+            </audio>
+            <span class="close-modal">&times;</span>
+        </div>`;
         document.body.appendChild(videoModal);
 
         const videoPlayer = videoModal.querySelector("#video-player");
@@ -264,18 +266,52 @@ window.onload = () => {
         const videoSource = videoModal.querySelector("#video-source");
         const audioPlayer = videoModal.querySelector("#audio-player");
         const audioSource = videoModal.querySelector("#audio-source");
-
-        const videoContent = videoModal.querySelector("#video-content");
+        const loadingScreen = videoModal.querySelector("#loading-screen");
+        videoModal.style.display = "none"
         document.querySelectorAll(".movie-card").forEach(card => {
             card.addEventListener("click", async () => {
                 const videoUrl = card.getAttribute("data-video");
                 const audioUrl = card.getAttribute("data-audio");
+                videoModal.style.display = "block"
+                // console.log("Video URL:", videoUrl);
+                // console.log("Audio URL:", audioUrl);
+                const addItem = async (item) => {
+                    await randomDelay();
+                    let div = document.createElement("div");
+                    div.innerHTML = item;
+                    document.body.append(div)
+                }
 
-                console.log("Video URL:", videoUrl);
-                console.log("Audio URL:", audioUrl);
+                const randomDelay = () => {
+                    return new Promise((resolve, reject) => {
+                        timeout = 1 + 6 * Math.random();
+                        setTimeout(() => {
+                            resolve()
+                        }, timeout * 1000);
+                    })
+                }
+
+                // async function main() {
+                let load = setInterval(() => {
+                    let last = loadingScreen.getElementsByTagName("div");
+                    last = last[last.length - 1]
+                    if (last.innerHTML.endsWith("...")) {
+                        last.innerHTML = last.innerHTML.slice(0, last.innerHTML.length - 3)
+                    }
+                    else {
+
+                        last.innerHTML = last.innerHTML + "."
+                    }
+
+                }, 100);
+                let text = [""]
+                for (const item of text) {
+                    await addItem(item)
+                }
+
+                await randomDelay()
 
                 // ✅ Check video file size before adding audio
-
                 if (videoUrl.includes("youtube.com") || videoUrl.includes("youtu.be")) {
                     const videoId = extractYouTubeID(videoUrl);
                     if (player) {
@@ -285,41 +321,53 @@ window.onload = () => {
                     }
                     videoModal.classList.add("active");
                 }
-                else if (videoUrl.includes("https://go.screenpal.com") || videoUrl.includes("https://imdb-video.media-imdb.com") || videoUrl.includes("https://vidsrc.cc")) {
+                else if (videoUrl.includes("https://go.screenpal.com") || videoUrl.includes("https://pepepeyo.xyz") || videoUrl.includes("https://hanatyury.online/") || videoUrl.includes("https://vidsrc.cc")) {
                     console.log("Embedding ScreenPal video...");
                     youtubePlayer.innerHTML = `
-                       <iframe src="${videoUrl}" width="800" height="450"  frameborder="0" allowfullscreen>   </iframe>
-                        `;
+               <iframe src="${videoUrl}" width="800" height="450"  frameborder="0" allowfullscreen>   </iframe>
+                `;
                     videoModal.classList.add("active");
                 }
-                else {
-                    const trimmedVideoUrl = videoUrl.trim();
-
-                    console.log("VideoUrl does not include youtube.com or youtu.be, it includes: ");
-                    const fileSize = await getFileSize(videoUrl);
-                    console.log(`Video File Size: ${fileSize} MB`);
-
-                    // ✅ Check if the video has audio
-                    const hasAudio = await checkIfVideoHasAudio(videoUrl);
-                    console.log("Has Audio:", hasAudio);
+                else if (videoUrl.includes("https://raw.githubusercontent.com")) {
+                    console.log("GitHub raw video detected. Showing loading screen...");
+                    loadingScreen.style.display = "flex";
+                    videoPlayer.style.display = "block";
 
                     // ✅ Set video source
                     videoPlayer.load(); // Load new video
                     videoSource.src = videoUrl;
 
-                    // ✅ Only add audio if file size > 25MB
-                    if (fileSize > 25 || !hasAudio) {
+                    const fileSize = await getFileSize(videoUrl);
+                    console.log(`Video File Size: ${fileSize} MB`);
+
+                    const hasAudio = await checkIfVideoHasAudio(videoUrl);
+                    console.log("Final Has Audio Check:", hasAudio);
+
+                    // ✅ Show loader until video starts playing
+                    videoPlayer.addEventListener("waiting", () => {
+                        console.log("Video is buffering...");
+                        loadingScreen.style.display = "flex";
+                    });
+
+                    videoPlayer.addEventListener("playing", () => {
+                        console.log("Video started playing. Hiding loading screen...");
+                        loadingScreen.style.display = "none";
+                        clearInterval(load)
+                    });
+
+                    if (fileSize > 25 && !hasAudio) {
+                        console.log("Adding external audio.");
                         audioPlayer.load();
                         audioSource.src = audioUrl;
-                    } else {
+                    }
+                    else {
+                        console.log("Video has built-in audio.");
                         audioSource.src = "";
-                        audioPlayer.style.display = "none"; // Hide audio for small videos
+                        audioPlayer.style.display = "none";
                     }
 
-                    videoPlayer.style.display = "block";
                     videoModal.classList.add("active");
 
-                    // ✅ Attempt autoplay
                     videoPlayer.muted = true;
                     videoPlayer.play()
                         .then(() => {
@@ -329,22 +377,78 @@ window.onload = () => {
                                 return audioPlayer.play();
                             }
                         })
-                        .catch(error => {
-                            console.error("Autoplay failed:", error)
-                            if (error.name === "AbortError") {
-                                console.log("Playback was interrupted.");
-                            }
-                        });
+                        .catch(error => console.error("Autoplay failed:", error));
 
-                    // ✅ Sync video and audio playback
                     videoPlayer.addEventListener("timeupdate", () => {
                         if ((fileSize > 25 || !hasAudio) && Math.abs(videoPlayer.currentTime - audioPlayer.currentTime) > 0.1) {
                             audioPlayer.currentTime = videoPlayer.currentTime;
                         }
                     });
 
-                    videoPlayer.addEventListener("play", () => (fileSize > 25 || !hasAudio) && audioPlayer.play());
-                    videoPlayer.addEventListener("pause", () => (fileSize > 25 || !hasAudio) && audioPlayer.pause());
+                    videoPlayer.addEventListener("play", () => (fileSize > 25 && !hasAudio) && audioPlayer.play());
+                    videoPlayer.addEventListener("pause", () => (fileSize > 25 && !hasAudio) && audioPlayer.pause());
+                }
+                else {
+                    const trimmedVideoUrl = videoUrl.trim();
+                    console.log("VideoUrl does not include youtube.com or youtu.be, it includes: ");
+
+                    loadingScreen.style.display = "flex";
+                    videoPlayer.style.display = "block";
+
+                    // ✅ Set video source
+                    videoPlayer.load(); // Load new video
+                    videoSource.src = videoUrl;
+
+                    const fileSize = await getFileSize(videoUrl);
+                    console.log(`Video File Size: ${fileSize} MB`);
+
+                    const hasAudio = await checkIfVideoHasAudio(videoUrl);
+                    console.log("Final Has Audio Check:", hasAudio);
+
+                    // ✅ Show loader until video starts playing
+                    videoPlayer.addEventListener("waiting", () => {
+                        console.log("Video is buffering...");
+                        loadingScreen.style.display = "flex";
+                    });
+
+                    videoPlayer.addEventListener("playing", () => {
+                        console.log("Video started playing. Hiding loading screen...");
+                        loadingScreen.style.display = "none";
+                        clearInterval(load)
+                    });
+
+                    if (fileSize > 25 && !hasAudio) {
+                        console.log("Adding external audio.");
+                        audioPlayer.load();
+                        audioSource.src = audioUrl;
+                    }
+                    else {
+                        console.log("Video has built-in audio.");
+                        audioSource.src = "";
+                        audioPlayer.style.display = "none";
+                    }
+
+                    videoModal.classList.add("active");
+
+                    videoPlayer.muted = true;
+                    videoPlayer.play()
+                        .then(() => {
+                            console.log("Video autoplayed successfully.");
+                            videoPlayer.muted = false;
+                            if (fileSize > 25 || !hasAudio) {
+                                return audioPlayer.play();
+                            }
+                        })
+                        .catch(error => console.error("Autoplay failed:", error));
+
+                    videoPlayer.addEventListener("timeupdate", () => {
+                        if ((fileSize > 25 && !hasAudio) && Math.abs(videoPlayer.currentTime - audioPlayer.currentTime) > 0.1) {
+                            audioPlayer.currentTime = videoPlayer.currentTime;
+                        }
+                    });
+
+                    videoPlayer.addEventListener("play", () => (fileSize > 25 && !hasAudio) && audioPlayer.play());
+                    videoPlayer.addEventListener("pause", () => (fileSize > 25 && !hasAudio) && audioPlayer.pause());
                 }
 
             });
@@ -354,7 +458,7 @@ window.onload = () => {
         videoModal.addEventListener("click", (e) => {
             if (e.target === videoModal || e.target.classList.contains("close-modal")) {
                 videoModal.classList.remove("active");
-
+                videoModal.style.display = "none"
                 if (player) {
                     player.stopVideo();
                     player.destroy();
@@ -387,22 +491,36 @@ window.onload = () => {
             return 0;
         }
     };
+
     // ✅ Function to check if a video has audio
     const checkIfVideoHasAudio = async (url) => {
         return new Promise((resolve) => {
             const testVideo = document.createElement("video");
             testVideo.src = url;
             testVideo.muted = true;
-            testVideo.addEventListener("loadedmetadata", () => {
-                // Firefox supports `mozHasAudio`
-                const hasAudio = testVideo.mozHasAudio ||
+
+            // ✅ Check when video can play
+            testVideo.addEventListener("canplaythrough", () => {
+                console.log("Checking if video has audio...");
+                const hasAudio =
                     testVideo.webkitAudioDecodedByteCount > 0 ||
                     (testVideo.audioTracks && testVideo.audioTracks.length > 0);
+
+                console.log("Has Audio Detected:", hasAudio);
                 resolve(hasAudio);
             });
-            testVideo.addEventListener("error", () => resolve(false));
+
+            // ✅ Fallback in case `canplaythrough` does not fire
+            testVideo.addEventListener("error", () => {
+                console.warn("Error loading video. Assuming no audio.");
+                resolve(false);
+            });
+
+            // ✅ Try playing the video for better detection
+            testVideo.play().catch(() => { });
         });
     };
+
     // Load the YouTube API script
     function loadYouTubeAPI() {
         const tag = document.createElement("script");
@@ -459,54 +577,135 @@ window.onload = () => {
                                 videoModal.classList.add("active");
                                 videoPlayer.style.display = "none";
                                 console.log(`VideoUrl includes ${videoUrl}`)
-                            } else {
-                                // Trim spaces or other unnecessary characters from the URL
-                                const trimmedVideoUrl = videoUrl.trim();
-
-                                console.log("VideoUrl does not include youtube.com or youtu.be, it includes: ");
-
-                                // ✅ Check the URL before proceeding
-                                const fileSize = await getFileSize(trimmedVideoUrl);
-                                console.log(`Video File Size: ${fileSize} MB`);
-
+                            }
+                            else if (videoUrl.includes("https://go.screenpal.com") || videoUrl.includes("https://pepepeyo.xyz") || videoUrl.includes("https://hanatyury.online/") || videoUrl.includes("https://vidsrc.cc")) {
+                                console.log("Embedding ScreenPal video...");
+                                youtubePlayer.innerHTML = `
+                                <iframe src="${videoUrl}" width="800" height="450"  frameborder="0" allowfullscreen>   </iframe>
+                                `;
+                                videoModal.classList.add("active");
+                            }
+                            else if (videoUrl.includes("https://raw.githubusercontent.com")) {
+                                console.log("GitHub raw video detected. Showing loading screen...");
+                                loadingScreen.style.display = "flex";
+                                videoPlayer.style.display = "block";
+            
                                 // ✅ Set video source
                                 videoPlayer.load(); // Load new video
-                                videoSource.src = trimmedVideoUrl;
-
-                                // ✅ Only add audio if file size > 25MB
-                                if (fileSize > 25) {
+                                videoSource.src = videoUrl;
+            
+                                const fileSize = await getFileSize(videoUrl);
+                                console.log(`Video File Size: ${fileSize} MB`);
+            
+                                const hasAudio = await checkIfVideoHasAudio(videoUrl);
+                                console.log("Final Has Audio Check:", hasAudio);
+            
+                                // ✅ Show loader until video starts playing
+                                videoPlayer.addEventListener("waiting", () => {
+                                    console.log("Video is buffering...");
+                                    loadingScreen.style.display = "flex";
+                                });
+            
+                                videoPlayer.addEventListener("playing", () => {
+                                    console.log("Video started playing. Hiding loading screen...");
+                                    loadingScreen.style.display = "none";
+                                    clearInterval(load)
+                                });
+            
+                                if (fileSize > 25 && !hasAudio) {
+                                    console.log("Adding external audio.");
                                     audioPlayer.load();
                                     audioSource.src = audioUrl;
-                                    audioPlayer.style.display = "block"; // Show audio only if needed
-                                } else {
-                                    audioSource.src = "";
-                                    audioPlayer.style.display = "none"; // Hide audio for small videos
                                 }
-
-                                videoPlayer.style.display = "block";
+                                else {
+                                    console.log("Video has built-in audio.");
+                                    audioSource.src = "";
+                                    audioPlayer.style.display = "none";
+                                }
+            
                                 videoModal.classList.add("active");
-
-                                // ✅ Attempt autoplay
+            
                                 videoPlayer.muted = true;
                                 videoPlayer.play()
                                     .then(() => {
                                         console.log("Video autoplayed successfully.");
                                         videoPlayer.muted = false;
-                                        if (fileSize > 25) {
+                                        if (fileSize > 25 || !hasAudio) {
                                             return audioPlayer.play();
                                         }
                                     })
                                     .catch(error => console.error("Autoplay failed:", error));
-
-                                // ✅ Sync video and audio playback
+            
                                 videoPlayer.addEventListener("timeupdate", () => {
-                                    if (fileSize > 25 && Math.abs(videoPlayer.currentTime - audioPlayer.currentTime) > 0.1) {
+                                    if ((fileSize > 25 || !hasAudio) && Math.abs(videoPlayer.currentTime - audioPlayer.currentTime) > 0.1) {
                                         audioPlayer.currentTime = videoPlayer.currentTime;
                                     }
                                 });
-
-                                videoPlayer.addEventListener("play", () => fileSize > 25 && audioPlayer.play());
-                                videoPlayer.addEventListener("pause", () => fileSize > 25 && audioPlayer.pause());
+            
+                                videoPlayer.addEventListener("play", () => (fileSize > 25 && !hasAudio) && audioPlayer.play());
+                                videoPlayer.addEventListener("pause", () => (fileSize > 25 && !hasAudio) && audioPlayer.pause());
+                            }
+                            else {
+                                const trimmedVideoUrl = videoUrl.trim();
+                                console.log("VideoUrl does not include youtube.com or youtu.be, it includes: ");
+            
+                                loadingScreen.style.display = "flex";
+                                videoPlayer.style.display = "block";
+            
+                                // ✅ Set video source
+                                videoPlayer.load(); // Load new video
+                                videoSource.src = videoUrl;
+            
+                                const fileSize = await getFileSize(videoUrl);
+                                console.log(`Video File Size: ${fileSize} MB`);
+            
+                                const hasAudio = await checkIfVideoHasAudio(videoUrl);
+                                console.log("Final Has Audio Check:", hasAudio);
+            
+                                // ✅ Show loader until video starts playing
+                                videoPlayer.addEventListener("waiting", () => {
+                                    console.log("Video is buffering...");
+                                    loadingScreen.style.display = "flex";
+                                });
+            
+                                videoPlayer.addEventListener("playing", () => {
+                                    console.log("Video started playing. Hiding loading screen...");
+                                    loadingScreen.style.display = "none";
+                                    clearInterval(load)
+                                });
+            
+                                if (fileSize > 25 && !hasAudio) {
+                                    console.log("Adding external audio.");
+                                    audioPlayer.load();
+                                    audioSource.src = audioUrl;
+                                }
+                                else {
+                                    console.log("Video has built-in audio.");
+                                    audioSource.src = "";
+                                    audioPlayer.style.display = "none";
+                                }
+            
+                                videoModal.classList.add("active");
+            
+                                videoPlayer.muted = true;
+                                videoPlayer.play()
+                                    .then(() => {
+                                        console.log("Video autoplayed successfully.");
+                                        videoPlayer.muted = false;
+                                        if (fileSize > 25 || !hasAudio) {
+                                            return audioPlayer.play();
+                                        }
+                                    })
+                                    .catch(error => console.error("Autoplay failed:", error));
+            
+                                videoPlayer.addEventListener("timeupdate", () => {
+                                    if ((fileSize > 25 && !hasAudio) && Math.abs(videoPlayer.currentTime - audioPlayer.currentTime) > 0.1) {
+                                        audioPlayer.currentTime = videoPlayer.currentTime;
+                                    }
+                                });
+            
+                                videoPlayer.addEventListener("play", () => (fileSize > 25 && !hasAudio) && audioPlayer.play());
+                                videoPlayer.addEventListener("pause", () => (fileSize > 25 && !hasAudio) && audioPlayer.pause());
                             }
                         });
 
@@ -559,7 +758,7 @@ ${videos.map(createCardHTML).join("")}
 <p class="rating">${video.rating}</p>
 <p class="title">${video.name}</p>
 <button class="watchlist-btn">
-  <a href="${video.watchlist}">+WATCHLIST</a>
+<a href="${video.watchlist}">+WATCHLIST</a>
 </button>
 </div>
 </div>`;

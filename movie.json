@@ -14,22 +14,22 @@
                 "desc7": "Behind the scenes of Hulk’s groundbreaking CGI",
                 "desc8": "How Hulk (2003) paved the way for future adaptations"
             },
-            "img": "./images/hulk2003/hulk2003.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hulk2003/hulk2003.jpg",
             "image": {
-                "image1": "./images/hulk2003/image1.jpg",
-                "image2": "./images/hulk2003/image2.jpg",
-                "image3": "./images/hulk2003/image3.jpg",
-                "image4": "./images/hulk2003/image4.jpg",
-                "image5": "./images/hulk2003/image5.jpg",
-                "image6": "./images/hulk2003/image6.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hulk2003/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hulk2003/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hulk2003/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hulk2003/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hulk2003/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hulk2003/image6.jpg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/1927?autoPlay=true&poster=true"
         },
         {
             "name": "Loki Season 1",
             "rating": "🍅 30% 🍿 85%",
-            "watchlist": "2024-03-08",
-            "img": "./images/LokiSeason1/loki.png",
+            "watchlist": "",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/loki.png",
             "description": {
                 "desc1": "A mind-bending journey through time and space",
                 "desc2": "See where Loki’s fate takes him after Endgame",
@@ -41,20 +41,123 @@
                 "desc8": "How Loki changed the MCU forever"
             },
             "image": {
-                "image1": "./images/LokiSeason1/image1.jpg",
-                "image2": "./images/LokiSeason1/image2.jpg",
-                "image3": "./images/LokiSeason1/image3.jpg",
-                "image4": "./images/LokiSeason1/image4.jpg",
-                "image5": "./images/LokiSeason1/image5.jpg",
-                "image6": "./images/LokiSeason1/image6.jpg",
-                "image7": "./images/LokiSeason1/image7.jpg",
-                "image8": "./images/LokiSeason1/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/image8.jpg"
             },
-            "video": "https://www.youtube.com/embed/nW948Va-l10?si=-N5oD0T8Djwzg72s",
-            "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
+            "episode": [
+                {
+                    "name": "Loki Season 1 || Episode 1 - The Glorious Purpose",
+                    "rating": "🍅 65% 🍿 85%",
+                    "watchlist": "2024-03-08",
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/loki.png",
+                    "description": {
+                        "desc1": "A mind-bending journey through time and space",
+                        "desc2": "See where Loki’s fate takes him after Endgame",
+                        "desc3": "Only on the TVA Files Podcast",
+                        "desc4": "Mischief, mystery, and Marvel’s best storytelling",
+                        "desc5": "Every timeline variant explained",
+                        "desc6": "100 reasons why Loki remains a fan favorite",
+                        "desc7": "From the TVA’s secrets to Kang’s rise",
+                        "desc8": "How Loki changed the MCU forever"
+                    },
+                    "video": "https://pepepeyo.xyz/v2/embed-4/zarTt9k1iBgc?_debug=true"
+                },
+                {
+                    "name": "Loki Season 1 || Episode 2 - The Variant",
+                    "rating": "🍅 36% 🍿 75%",
+                    "watchlist": "2024-03-08",
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/loki.png",
+                    "description": {
+                        "desc1": "A mind-bending journey through time and space",
+                        "desc2": "See where Loki’s fate takes him after Endgame",
+                        "desc3": "Only on the TVA Files Podcast",
+                        "desc4": "Mischief, mystery, and Marvel’s best storytelling",
+                        "desc5": "Every timeline variant explained",
+                        "desc6": "100 reasons why Loki remains a fan favorite",
+                        "desc7": "From the TVA’s secrets to Kang’s rise",
+                        "desc8": "How Loki changed the MCU forever"
+                    },
+                    "video": "https://pepepeyo.xyz/v2/embed-4/4j8fP3IzErR9?_debug=true"
+                },
+                {
+                    "name": "Loki Season 1 || Episode 3 - Lamentis ",
+                    "rating": "🍅 80% 🍿 45%",
+                    "watchlist": "2024-03-08",
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/loki.png",
+                    "description": {
+                        "desc1": "A mind-bending journey through time and space",
+                        "desc2": "See where Loki’s fate takes him after Endgame",
+                        "desc3": "Only on the TVA Files Podcast",
+                        "desc4": "Mischief, mystery, and Marvel’s best storytelling",
+                        "desc5": "Every timeline variant explained",
+                        "desc6": "100 reasons why Loki remains a fan favorite",
+                        "desc7": "From the TVA’s secrets to Kang’s rise",
+                        "desc8": "How Loki changed the MCU forever"
+                    },
+                    "video": "https://pepepeyo.xyz/v2/embed-4/s1lu0EBjaPSN?_debug=true"
+                },
+                {
+                    "name": "Loki Season 1 || Episode 4 - The Nexus Event",
+                    "rating": "🍅 43% 🍿 58%",
+                    "watchlist": "2024-03-08",
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/loki.png",
+                    "description": {
+                        "desc1": "A mind-bending journey through time and space",
+                        "desc2": "See where Loki’s fate takes him after Endgame",
+                        "desc3": "Only on the TVA Files Podcast",
+                        "desc4": "Mischief, mystery, and Marvel’s best storytelling",
+                        "desc5": "Every timeline variant explained",
+                        "desc6": "100 reasons why Loki remains a fan favorite",
+                        "desc7": "From the TVA’s secrets to Kang’s rise",
+                        "desc8": "How Loki changed the MCU forever"
+                    },
+                    "video": "https://pepepeyo.xyz/v2/embed-4/1ooL4poDWJ23?_debug=true"
+                },
+                {
+                    "name": "Loki Season 1 || Episode 5 - For All Time - Always",
+                    "rating": "🍅 60% 🍿 75%",
+                    "watchlist": "2024-03-08",
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/loki.png",
+                    "description": {
+                        "desc1": "A mind-bending journey through time and space",
+                        "desc2": "See where Loki’s fate takes him after Endgame",
+                        "desc3": "Only on the TVA Files Podcast",
+                        "desc4": "Mischief, mystery, and Marvel’s best storytelling",
+                        "desc5": "Every timeline variant explained",
+                        "desc6": "100 reasons why Loki remains a fan favorite",
+                        "desc7": "From the TVA’s secrets to Kang’s rise",
+                        "desc8": "How Loki changed the MCU forever"
+                    },
+                    "video": "https://pepepeyo.xyz/v2/embed-4/kMX34khDLjNM?_debug=true"
+                },
+                {
+                    "name": "Loki Season 1 || Episode 6",
+                    "rating": "🍅 53% 🍿 55%",
+                    "watchlist": "2024-03-08",
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/LokiSeason1/loki.png",
+                    "description": {
+                        "desc1": "A mind-bending journey through time and space",
+                        "desc2": "See where Loki’s fate takes him after Endgame",
+                        "desc3": "Only on the TVA Files Podcast",
+                        "desc4": "Mischief, mystery, and Marvel’s best storytelling",
+                        "desc5": "Every timeline variant explained",
+                        "desc6": "100 reasons why Loki remains a fan favorite",
+                        "desc7": "From the TVA’s secrets to Kang’s rise",
+                        "desc8": "How Loki changed the MCU forever"
+                    },
+                    "video": "https://pepepeyo.xyz/v2/embed-4/cwn65BwzJwV5?_debug=true"
+                }
+            ],
+            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/Marvel%20Studios'%20Loki%20_%20Official%20Trailer.mp4"
         },
         {
-            "name": "Agatha All Along",
+            "name": "Agatha All Along Season 1",
             "rating": "🍅 90% 🍿 15%",
             "watchlist": "2017-09-28",
             "description": {
@@ -67,18 +170,174 @@
                 "desc7": "Behind the scenes of Agatha’s bewitching transformation",
                 "desc8": "How Agatha All Along connects to the future of Marvel"
             },
-            "img": "./images/AgathaAllAlong/agatha.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/agatha.jpg",
             "image": {
-                "image1": "./images/AgathaAllAlong/image1.jpg",
-                "image2": "./images/AgathaAllAlong/image2.jpg",
-                "image3": "./images/AgathaAllAlong/image3.jpg",
-                "image4": "./images/AgathaAllAlong/image4.jpg",
-                "image5": "./images/AgathaAllAlong/image5.jpg",
-                "image6": "./images/AgathaAllAlong/image6.jpg",
-                "image7": "./images/AgathaAllAlong/image7.jpg",
-                "image8": "./images/AgathaAllAlong/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image8.jpg",
+                "image9": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image9.jpg"
             },
-            "video": "https://www.youtube.com/embed/R9pXbNz6Vbw?si=dYw6ntqejKvYFgcH"
+            "episode": [
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 1 - Seekest Thou the Road",
+                    "rating": "🍅 20% 🍿 35%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image1.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/azsZh3cH5x0v?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 2 - Circle Sewn with Fate/Unlock the hidden Gate",
+                    "rating": "🍅 20% 🍿 35%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image2.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/7XsIls31HYNj?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 3 - Through Many Miles/Of Tricks and Trials",
+                    "rating": "🍅 50% 🍿 97%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image3.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/7YUgjqEUQTes?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 4 - If I can't Reach You/LetMy Song Teach You",
+                    "rating": "🍅 60% 🍿 67%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image4.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/UOU0KYlDipsS?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 5 - Darkest Hour/Wake Thy Power",
+                    "rating": "🍅 68% 🍿 77%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image5.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/oQnQQotLgx5l?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 6 - Familiar by Thy Side",
+                    "rating": "🍅 88% 🍿 37%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image6.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/x5MITOwjqOWP?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 7 - Death`s Hand in Mine",
+                    "rating": "🍅 88% 🍿 37%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image7.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/IoGOxaMk6evV?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 8 - Follow Me My Friend/To Glory at the End",
+                    "rating": "🍅 88% 🍿 37%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image8.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/kvJxUWGQ2mwj?_debug=true"
+                },
+                {
+                    "name": "Agatha All Along || Season 1 || Episode 9 - Maiden Mother Crone",
+                    "rating": "🍅 38% 🍿 93%",
+                    "watchlist": "2017-09-28",
+                    "description": {
+                        "desc1": "A spellbinding journey into the dark side of magic",
+                        "desc2": "Follow Agatha Harkness as she reclaims her power",
+                        "desc3": "Only on the Witch’s Grimoire Podcast",
+                        "desc4": "Mysterious, wickedly fun, and full of surprises",
+                        "desc5": "Every magical secret hidden in plain sight",
+                        "desc6": "100 most powerful witches in the MCU",
+                        "desc7": "Behind the scenes of Agatha’s bewitching transformation",
+                        "desc8": "How Agatha All Along connects to the future of Marvel"
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AgathaAllAlong/image9.jpg",
+                    "video": "https://pepepeyo.xyz/v2/embed-4/JzwAEWtoDgup?_debug=true"
+                }
+            ],
+            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/Agatha%20All%20Along%20_%20Official%20Trailer.mp4"
         },
         {
             "name": "Breaking Brad Season 1",
@@ -94,18 +353,19 @@
                 "desc7": "Behind the scenes of Walter and Jesse’s first cook",
                 "desc8": "How Breaking Bad redefined television storytelling"
             },
-            "img": "./images/BreakingBradSeason1/breakingbrad.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/breakingbrad.jpg",
             "image": {
-                "image1": "./images/BreakingBradSeason1/image1.jpg",
-                "image2": "./images/BreakingBradSeason1/image2.jpg",
-                "image3": "./images/BreakingBradSeason1/image3.jpg",
-                "image4": "./images/BreakingBradSeason1/image4.jpg",
-                "image5": "./images/BreakingBradSeason1/image5.jpg",
-                "image6": "./images/BreakingBradSeason1/image6.jpg",
-                "image7": "./images/BreakingBradSeason1/image7.jpg",
-                "image8": "./images/BreakingBradSeason1/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BreakingBradSeason1/image8.jpg"
             },
-            "video": "https://www.youtube.com/embed/HhesaQXLuRY?si=ZijA0j02muHous9P",
+            "episode": [],
+            "video": " https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/Breaking%20Bad%20Trailer%20(First%20Season).mp4",
             "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
         },
         {
@@ -122,126 +382,18 @@
                 "desc7": "Behind the scenes of Jack and Sally’s iconic romance",
                 "desc8": "How The Nightmare Before Christmas became a holiday classic"
             },
-            "img": "./images/TheNightmarebeforeChristmas/burton.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/burton.jpg",
             "image": {
-                "image1": "./images/TheNightmarebeforeChristmas/image1.jpg",
-                "image2": "./images/TheNightmarebeforeChristmas/image2.jpg",
-                "image3": "./images/TheNightmarebeforeChristmas/image3.jpg",
-                "image4": "./images/TheNightmarebeforeChristmas/image4.jpg",
-                "image5": "./images/TheNightmarebeforeChristmas/image5.jpg",
-                "image6": "./images/TheNightmarebeforeChristmas/image6.jpg",
-                "image7": "./images/TheNightmarebeforeChristmas/image7.jpg",
-                "image8": "./images/TheNightmarebeforeChristmas/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheNightmarebeforeChristmas/image8.jpg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/9479?autoPlay=true&poster=true"
-        },
-        {
-            "name": "Batman - The Dark Knight",
-            "rating": "🍅 95% 🍿 91%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A gripping battle between chaos and justice",
-                "desc2": "See Batman face his greatest foe, the Joker",
-                "desc3": "Only on the Gotham Chronicles Podcast",
-                "desc4": "Dark, intense, and a cinematic masterpiece",
-                "desc5": "Every hidden Easter egg you may have missed",
-                "desc6": "100 greatest superhero films of all time ranked",
-                "desc7": "Behind the scenes of Heath Ledger’s legendary performance",
-                "desc8": "How The Dark Knight redefined the superhero genre"
-            },
-            "img": "./images/BatmanTheDarkKnight/darknight.jpg",
-            "image": {
-                "image1": "./images/BatmanTheDarkKnight/image1.jpg",
-                "image2": "./images/BatmanTheDarkKnight/image2.jpg",
-                "image3": "./images/BatmanTheDarkKnight/image3.jpg",
-                "image4": "./images/BatmanTheDarkKnight/image4.jpg",
-                "image5": "./images/BatmanTheDarkKnight/image5.jpg",
-                "image6": "./images/BatmanTheDarkKnight/image6.jpg",
-                "image7": "./images/BatmanTheDarkKnight/image7.jpg",
-                "image8": "./images/BatmanTheDarkKnight/image8.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/155?autoPlay=true&poster=true"
-        },
-        {
-            "name": "Deadpool and Wolverine",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A battle between fate, free will, and mischief",
-                "desc2": "Loki’s journey beyond the Avengers continues",
-                "desc3": "Only on the TVA Case Files Podcast",
-                "desc4": "Unexpected friendships and shocking betrayals",
-                "desc5": "The TVA’s biggest secrets uncovered",
-                "desc6": "How the show connects to future Marvel films",
-                "desc7": "All the variants and their unique abilities",
-                "desc8": "Will Loki ever reunite with Thor?"
-            },
-            "img": "./images/DeadpoolandWolverine/deadpool-wolverin.jpg",
-            "image": {
-                "image1": "./images/DeadpoolandWolverine/image1.jpg",
-                "image2": "./images/DeadpoolandWolverine/image2.jpg",
-                "image3": "./images/DeadpoolandWolverine/image3.jpg",
-                "image4": "./images/DeadpoolandWolverine/image4.jpg",
-                "image5": "./images/DeadpoolandWolverine/image5.jpg",
-                "image6": "./images/DeadpoolandWolverine/image6.jpg",
-                "image7": "./images/DeadpoolandWolverine/image7.jpg",
-                "image8": "./images/DeadpoolandWolverine/image8.jpg"
-            },
-            "video": "https://go.screenpal.com/player/cTnXhfnhDCt?ff=true&controls=1&sec=0&watchPage=true%22&mute=0&autoplay=1"
-        },
-        {
-            "name": "Emilia Pérez ",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A gripping crime musical blending drama and transformation",
-                "desc2": "Follow a cartel leader’s journey to a new identity",
-                "desc3": "Only on the Underworld Chronicles Podcast",
-                "desc4": "Bold, emotional, and visually striking",
-                "desc5": "Every hidden detail behind Emilia’s transformation",
-                "desc6": "100 greatest crime films of the decade",
-                "desc7": "Behind the scenes of Jacques Audiard’s visionary storytelling",
-                "desc8": "How Emilia Pérez redefines crime cinema with music and identity"
-            },
-            "img": "./images/EmiliaPérez/emilia-periz.jpg",
-            "image": {
-                "image1": "./images/EmiliaPérez/image1.jpg",
-                "image2": "./images/EmiliaPérez/image2.jpg",
-                "image3": "./images/EmiliaPérez/image3.jpg",
-                "image4": "./images/EmiliaPérez/image4.jpg",
-                "image5": "./images/EmiliaPérez/image5.jpg",
-                "image6": "./images/EmiliaPérez/image6.jpg",
-                "image7": "./images/EmiliaPérez/image7.jpg",
-                "image8": "./images/EmiliaPérez/image8.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/974950?autoPlay=true&poster=true"
-        },
-        {
-            "name": "The Venom 2 (II) Let there be a Carnage",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "26 collections centered on everything from horror classics to book adaptations",
-                "desc2": "See where Venom: The Last Dance places",
-                "desc3": "Only on the Awards Tour Podcast",
-                "desc4": "Silly , heartfelt , and strictly for fans",
-                "desc5": "Every dark and dreary delight coming out this year",
-                "desc6": "100 bloody films to choose from",
-                "desc7": "From the settings and stars to its story",
-                "desc8": "The Terminator turns 40 !"
-            },
-            "img": "./images/TheVenom2/venom2.jpg",
-            "image": {
-                "image1": "./images/TheVenom2/image1.jpg",
-                "image2": "./images/TheVenom2/image2.jpg",
-                "image3": "./images/TheVenom2/image3.jpg",
-                "image4": "./images/TheVenom2/image4.jpg",
-                "image5": "./images/TheVenom2/image5.jpg",
-                "image6": "./images/TheVenom2/image6.jpg",
-                "image7": "./images/TheVenom2/image7.jpg",
-                "image8": "./images/TheVenom2/image8.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/580489?autoPlay=true&poster=true"
         }
     ],
     "Now-In-Theaters": [
@@ -259,16 +411,16 @@
                 "desc7": "Behind the scenes of the shocking snap",
                 "desc8": "How Infinity War changed the MCU forever"
             },
-            "img": "./images/AvengersInfinityWar/avengersinfinitywar.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/avengersinfinitywar.jpg",
             "image": {
-                "image1": "./images/AvengersInfinityWar/image1.jpg",
-                "image2": "./images/AvengersInfinityWar/image2.jpg",
-                "image3": "./images/AvengersInfinityWar/image3.jpg",
-                "image4": "./images/AvengersInfinityWar/image4.jpg",
-                "image5": "./images/AvengersInfinityWar/image5.jpg",
-                "image6": "./images/AvengersInfinityWar/image6.jpg",
-                "image7": "./images/AvengersInfinityWar/image7.jpg",
-                "image8": "./images/AvengersInfinityWar/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/AvengersInfinityWar/image8.jpg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/299536?autoPlay=true&poster=true"
         },
@@ -276,7 +428,7 @@
             "name": "Friends Season 1",
             "rating": "🍅 30% 🍿 85%",
             "watchlist": "2024-03-08",
-            "img": "./images/FriendsSeason1/friends.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/friends.jpg",
             "description": {
                 "desc1": "The beginning of TV’s most iconic friendship",
                 "desc2": "See how six New Yorkers navigate life and love",
@@ -288,16 +440,17 @@
                 "desc8": "How Friends became a cultural phenomenon"
             },
             "image": {
-                "image1": "./images/FriendsSeason1/image1.jpeg",
-                "image2": "./images/FriendsSeason1/image2.jpeg",
-                "image3": "./images/FriendsSeason1/image3.jpeg",
-                "image4": "./images/FriendsSeason1/image4.jpeg",
-                "image5": "./images/FriendsSeason1/image5.jpeg",
-                "image6": "./images/FriendsSeason1/image6.jpeg",
-                "image7": "./images/FriendsSeason1/image7.jpeg",
-                "image8": "./images/FriendsSeason1/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/FriendsSeason1/image8.jpeg"
             },
-            "video": "https://www.youtube.com/embed/H29XSxoKp80?si=Pt7rkmhkqnzub3uB"
+            "episode": [],
+            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/Friends_the%20Complete_Series%20Collection.mp4"
         },
         {
             "name": "The GodFather",
@@ -313,23 +466,23 @@
                 "desc7": "Behind the scenes of Marlon Brando’s legendary performance",
                 "desc8": "How The Godfather shaped modern cinema"
             },
-            "img": "./images/TheGodFather/godfather.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/godfather.jpg",
             "image": {
-                "image1": "./images/TheGodFather/image1.jpeg",
-                "image2": "./images/TheGodFather/image2.jpeg",
-                "image3": "./images/TheGodFather/image3.jpeg",
-                "image4": "./images/TheGodFather/image4.jpeg",
-                "image5": "./images/TheGodFather/image5.jpeg",
-                "image6": "./images/TheGodFather/image6.jpeg",
-                "image7": "./images/TheGodFather/image7.jpeg",
-                "image8": "./images/TheGodFather/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheGodFather/image8.jpeg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/238?autoPlay=true&poster=true"
         },
         {
             "name": "Hocus Pocus",
             "rating": "🍅 85% 🍿 88%",
-            "watchlist": "https://vidsrc.cc/v2/embed/movie/10439?autoPlay=true&poster=true",
+            "watchlist": "https://imdb-video.media-imdb.com/vi2487796249/1434659607842-pgv4ql-1664308373387.mp4?Expires=1739345651&Signature=kVTTd3vP8YH2yT7s6~47IFx7~LZKv8eJijGkATzhWbYDgRGn46l4hAjzmzMSrZf0levi2L~jopF04XRHk~mu09XPlIs3kXYHVMX~Kk75cXr3h7dOPOieYuB9EK8nkEug2V22fowMjFcPuIEBAmmZDjl2QyxTYUc7PcS17QcZ9SIlOZ6A798K2hQh4Cn~5-TuX4rGrjXLBI8ay7Sl9rGJY8K0d5zBoHejkp~lLCE2MOrecYBjY011fguFZAkzfjmStQmyCQmuIyrB2~NMfL9~fq-zJfsinXGaZVAC4H56jBG~Ibw3B~unKoxw23qb1sN1njcwOjLIsHcW4R4IyVcqxQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
             "description": {
                 "desc1": "A spellbinding adventure filled with magic and mischief",
                 "desc2": "The Sanderson sisters return for more Halloween havoc",
@@ -340,23 +493,23 @@
                 "desc7": "Behind the scenes of the Sanderson sisters’ comeback",
                 "desc8": "The legend of Hocus Pocus lives on"
             },
-            "img": "./images/hocus-pocus/hocus-pocus.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/hocus-pocus.jpg",
             "image": {
-                "image1": "./images/hocus-pocus/image1.jpeg",
-                "image2": "./images/hocus-pocus/image2.jpeg",
-                "image3": "./images/hocus-pocus/image3.jpeg",
-                "image4": "./images/hocus-pocus/image4.jpeg",
-                "image5": "./images/hocus-pocus/image5.jpeg",
-                "image6": "./images/hocus-pocus/image6.jpeg",
-                "image7": "./images/hocus-pocus/image7.jpeg",
-                "image8": "./images/hocus-pocus/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/hocus-pocus/image8.jpeg"
             },
-            "video": "https://imdb-video.media-imdb.com/vi2487796249/1434659607842-pgv4ql-1664308373387.mp4?Expires=1739345651&Signature=kVTTd3vP8YH2yT7s6~47IFx7~LZKv8eJijGkATzhWbYDgRGn46l4hAjzmzMSrZf0levi2L~jopF04XRHk~mu09XPlIs3kXYHVMX~Kk75cXr3h7dOPOieYuB9EK8nkEug2V22fowMjFcPuIEBAmmZDjl2QyxTYUc7PcS17QcZ9SIlOZ6A798K2hQh4Cn~5-TuX4rGrjXLBI8ay7Sl9rGJY8K0d5zBoHejkp~lLCE2MOrecYBjY011fguFZAkzfjmStQmyCQmuIyrB2~NMfL9~fq-zJfsinXGaZVAC4H56jBG~Ibw3B~unKoxw23qb1sN1njcwOjLIsHcW4R4IyVcqxQ__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+            "video": "https://vidsrc.cc/v2/embed/movie/10439?autoPlay=true&poster=true"
         },
         {
             "name": "Ironman Two ",
             "rating": "🍅 20% -🍿 35%",
-            "watchlist": "2023-09-16",
+            "watchlist": "https://www.youtube.com/embed/KrYejTkNc7Y?si=GFMnHJaBiIr-qyi6?autoplay=1&modestbranding=1&showinfo=0&rel=0&fs=1&controls=1&disablekb=1",
             "description": {
                 "desc1": "Tony Stark faces new enemies and his own legacy",
                 "desc2": "See how War Machine joins the fight",
@@ -367,126 +520,18 @@
                 "desc7": "Behind the scenes of Tony vs. Whiplash",
                 "desc8": "How Iron Man 2 set the stage for The Avengers"
             },
-            "img": "./images/ironman2/ironman2.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/ironman2.jpg",
             "image": {
-                "image1": "./images/ironman2/image1.jpeg",
-                "image2": "./images/ironman2/image2.jpeg",
-                "image3": "./images/ironman2/image3.jpeg",
-                "image4": "./images/ironman2/image4.jpeg",
-                "image5": "./images/ironman2/image5.jpeg",
-                "image6": "./images/ironman2/image6.jpeg",
-                "image7": "./images/ironman2/image7.jpeg",
-                "image8": "./images/ironman2/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman2/image8.jpeg"
             },
-            "video": "https://www.youtube.com/embed/KrYejTkNc7Y?si=GFMnHJaBiIr-qyi6?autoplay=1&modestbranding=1&showinfo=0&rel=0&fs=1&controls=1&disablekb=1"
-        },
-        {
-            "name": "John Wick Chapter 1",
-            "rating": "🍅 95% 🍿 91%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A retired hitman seeks vengeance in a world of assassins",
-                "desc2": "See how John Wick became the Baba Yaga",
-                "desc3": "Only on the Continental Files Podcast",
-                "desc4": "Stylish, intense, and action-packed",
-                "desc5": "Every brutal fight scene ranked",
-                "desc6": "100 best action movies of all time",
-                "desc7": "Behind the scenes of Keanu’s legendary stunts",
-                "desc8": "How John Wick redefined the action genre"
-            },
-            "img": "./images/JohnWickChapter1/john-wick.jpg",
-            "image": {
-                "image1": "./images/JohnWickChapter1/image1.jpeg",
-                "image2": "./images/JohnWickChapter1/image2.jpeg",
-                "image3": "./images/JohnWickChapter1/image3.jpeg",
-                "image4": "./images/JohnWickChapter1/image4.jpeg",
-                "image5": "./images/JohnWickChapter1/image5.jpeg",
-                "image6": "./images/JohnWickChapter1/image6.jpeg",
-                "image7": "./images/JohnWickChapter1/image7.jpeg",
-                "image8": "./images/JohnWickChapter1/image8.jpeg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/245891?autoPlay=true&poster=true"
-        },
-        {
-            "name": "The Shawshank Redemption",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A timeless story of hope, friendship, and redemption",
-                "desc2": "Follow Andy Dufresne’s journey through Shawshank Prison",
-                "desc3": "Only on the Redemption Chronicles Podcast",
-                "desc4": "Powerful performances and an unforgettable ending",
-                "desc5": "Every hidden detail you may have missed",
-                "desc6": "100 greatest films of all time ranked",
-                "desc7": "Behind the scenes of the iconic prison escape",
-                "desc8": "Why Shawshank remains a cinematic masterpiece"
-            },
-            "img": "./images/shawshank/shawshank.jpg",
-            "image": {
-                "image1": "./images/shawshank/image1.jpeg",
-                "image2": "./images/shawshank/image2.jpeg",
-                "image3": "./images/shawshank/image3.jpeg",
-                "image4": "./images/shawshank/image4.jpeg",
-                "image5": "./images/shawshank/image5.jpeg",
-                "image6": "./images/shawshank/image6.jpeg",
-                "image7": "./images/shawshank/image7.jpeg",
-                "image8": "./images/shawshank/image8.jpeg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/278?autoPlay=true&poster=true"
-        },
-        {
-            "name": "Spider-Man-No-Way-Home",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A multiverse-shattering adventure like never before",
-                "desc2": "See Spider-Man face his greatest challenge yet",
-                "desc3": "Only on the Web of Destiny Podcast",
-                "desc4": "Emotional, action-packed, and filled with surprises",
-                "desc5": "Every Spider-Man villain ranked",
-                "desc6": "100 biggest moments in the Spider-Verse",
-                "desc7": "Behind the scenes of the epic team-up",
-                "desc8": "How No Way Home reshaped the MCU"
-            },
-            "img": "./images/Spider-Man-No-Way-Home/Spider-Man-No-Way-Home.jpg",
-            "image": {
-                "image1": "./images/Spider-Man-No-Way-Home/image1.jpeg",
-                "image2": "./images/Spider-Man-No-Way-Home/image2.jpeg",
-                "image3": "./images/Spider-Man-No-Way-Home/image3.jpeg",
-                "image4": "./images/Spider-Man-No-Way-Home/image4.jpeg",
-                "image5": "./images/Spider-Man-No-Way-Home/image5.jpeg",
-                "image6": "./images/Spider-Man-No-Way-Home/image6.jpeg",
-                "image7": "./images/Spider-Man-No-Way-Home/image7.jpeg",
-                "image8": "./images/Spider-Man-No-Way-Home/image8.jpeg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/634649?autoPlay=true&poster=true"
-        },
-        {
-            "name": "The Marvels",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A cosmic adventure uniting three powerful heroes",
-                "desc2": "Captain Marvel, Ms. Marvel, and Monica Rambeau team up",
-                "desc3": "Only on the Cosmic Connections Podcast",
-                "desc4": "Action-packed, funny, and full of Marvel surprises",
-                "desc5": "Every major connection to the MCU explained",
-                "desc6": "100 greatest team-ups in Marvel history",
-                "desc7": "Behind the scenes of the intergalactic battles",
-                "desc8": "How The Marvels sets up the future of the MCU"
-            },
-            "img": "./images/TheMarvels/TheMarvels.jpg",
-            "image": {
-                "image1": "./images/TheMarvels/image1.jpeg",
-                "image2": "./images/TheMarvels/image2.jpeg",
-                "image3": "./images/TheMarvels/image3.jpeg",
-                "image4": "./images/TheMarvels/image4.jpeg",
-                "image5": "./images/TheMarvels/image5.jpeg",
-                "image6": "./images/TheMarvels/image6.jpeg",
-                "image7": "./images/TheMarvels/image7.jpeg",
-                "image8": "./images/TheMarvels/image8.jpeg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/609681?autoPlay=true&poster=true"
+            "video": "https://hanatyury.online/v2/embed-4/z26WiKdKWikt?_debug=true"
         }
     ],
     "Tv-Shows": [
@@ -504,235 +549,126 @@
                 "desc7": "Behind the scenes of Thor and Mighty Thor’s team-up",
                 "desc8": "How Love and Thunder expands the Marvel cosmos"
             },
-            "img": "./images/thorloveandthunder/thorloveandthunder.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/thorloveandthunder.jpg",
             "image": {
-                "image1": "./images/thorloveandthunder/image1.jpg",
-                "image2": "./images/thorloveandthunder/image2.jpg",
-                "image3": "./images/thorloveandthunder/image3.jpg",
-                "image4": "./images/thorloveandthunder/image4.jpg",
-                "image5": "./images/thorloveandthunder/image5.jpg",
-                "image6": "./images/thorloveandthunder/image6.jpg",
-                "image7": "./images/thorloveandthunder/image7.jpg",
-                "image8": "./images/thorloveandthunder/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/thorloveandthunder/image8.jpg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/616037?autoPlay=true&poster=true"
         },
         {
-            "name": "Loki Season 1",
-            "rating": "🍅 30% 🍿 85%",
-            "watchlist": "2024-03-08",
-            "img": "./images/LokiSeason1/loki.png",
-            "description": {
-                "desc1": "A mind-bending journey through time and space",
-                "desc2": "See where Loki’s fate takes him after Endgame",
-                "desc3": "Only on the TVA Files Podcast",
-                "desc4": "Mischief, mystery, and Marvel’s best storytelling",
-                "desc5": "Every timeline variant explained",
-                "desc6": "100 reasons why Loki remains a fan favorite",
-                "desc7": "From the TVA’s secrets to Kang’s rise",
-                "desc8": "How Loki changed the MCU forever"
-            },
-            "image": {
-                "image1": "./images/LokiSeason1/image1.jpg",
-                "image2": "./images/LokiSeason1/image2.jpg",
-                "image3": "./images/LokiSeason1/image3.jpg",
-                "image4": "./images/LokiSeason1/image4.jpg",
-                "image5": "./images/LokiSeason1/image5.jpg",
-                "image6": "./images/LokiSeason1/image6.jpg",
-                "image7": "./images/LokiSeason1/image7.jpg",
-                "image8": "./images/LokiSeason1/image8.jpg"
-            },
-            "video": "https://www.youtube.com/embed/nW948Va-l10?si=-N5oD0T8Djwzg72s",
-            "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
-        },
-        {
-            "name": "Agatha All Along",
-            "rating": "🍅 90% 🍿 15%",
-            "watchlist": "2017-09-28",
-            "description": {
-                "desc1": "A spellbinding journey into the dark side of magic",
-                "desc2": "Follow Agatha Harkness as she reclaims her power",
-                "desc3": "Only on the Witch’s Grimoire Podcast",
-                "desc4": "Mysterious, wickedly fun, and full of surprises",
-                "desc5": "Every magical secret hidden in plain sight",
-                "desc6": "100 most powerful witches in the MCU",
-                "desc7": "Behind the scenes of Agatha’s bewitching transformation",
-                "desc8": "How Agatha All Along connects to the future of Marvel"
-            },
-            "img": "./images/AgathaAllAlong/agatha.jpg",
-            "image": {
-                "image1": "./images/AgathaAllAlong/image1.jpg",
-                "image2": "./images/AgathaAllAlong/image2.jpg",
-                "image3": "./images/AgathaAllAlong/image3.jpg",
-                "image4": "./images/AgathaAllAlong/image4.jpg",
-                "image5": "./images/AgathaAllAlong/image5.jpg",
-                "image6": "./images/AgathaAllAlong/image6.jpg",
-                "image7": "./images/AgathaAllAlong/image7.jpg",
-                "image8": "./images/AgathaAllAlong/image8.jpg"
-            },
-            "video": "https://youtu.be/R9pXbNz6Vbw?si=-MmgCXrCjfBbtQUY"
-        },
-        {
-            "name": "Breaking Brad Season 1",
-            "rating": "🍅 85% 🍿 88%",
+            "name": "The Shawshank Redemption",
+            "rating": "🍅 90% 🍿 85%",
             "watchlist": "2023-09-16",
             "description": {
-                "desc1": "A high school teacher turns to a life of crime",
-                "desc2": "Witness Walter White’s transformation into Heisenberg",
-                "desc3": "Only on the Blue Crystal Chronicles Podcast",
-                "desc4": "Gritty, intense, and masterfully written",
-                "desc5": "Every shocking twist in Season 1 explained",
-                "desc6": "100 greatest TV dramas of all time ranked",
-                "desc7": "Behind the scenes of Walter and Jesse’s first cook",
-                "desc8": "How Breaking Bad redefined television storytelling"
+                "desc1": "A timeless story of hope, friendship, and redemption",
+                "desc2": "Follow Andy Dufresne’s journey through Shawshank Prison",
+                "desc3": "Only on the Redemption Chronicles Podcast",
+                "desc4": "Powerful performances and an unforgettable ending",
+                "desc5": "Every hidden detail you may have missed",
+                "desc6": "100 greatest films of all time ranked",
+                "desc7": "Behind the scenes of the iconic prison escape",
+                "desc8": "Why Shawshank remains a cinematic masterpiece"
             },
-            "img": "./images/BreakingBradSeason1/breakingbrad.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/shawshank.jpg",
             "image": {
-                "image1": "./images/BreakingBradSeason1/image1.jpg",
-                "image2": "./images/BreakingBradSeason1/image2.jpg",
-                "image3": "./images/BreakingBradSeason1/image3.jpg",
-                "image4": "./images/BreakingBradSeason1/image4.jpg",
-                "image5": "./images/BreakingBradSeason1/image5.jpg",
-                "image6": "./images/BreakingBradSeason1/image6.jpg",
-                "image7": "./images/BreakingBradSeason1/image7.jpg",
-                "image8": "./images/BreakingBradSeason1/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/shawshank/image8.jpeg"
             },
-            "video": "https://www.youtube.com/embed/HhesaQXLuRY?si=ZijA0j02muHous9P"
+            "video": "https://vidsrc.cc/v2/embed/movie/278?autoPlay=true&poster=true"
         },
         {
-            "name": "Tim Burton's The Nightmare before Christmas",
-            "rating": "🍅 20% -🍿 35%",
+            "name": "Spider-Man-No-Way-Home",
+            "rating": "🍅 90% 🍿 85%",
             "watchlist": "2023-09-16",
             "description": {
-                "desc1": "A magical tale blending Halloween and Christmas",
-                "desc2": "Follow Jack Skellington’s journey of self-discovery",
-                "desc3": "Only on the Pumpkin King Chronicles Podcast",
-                "desc4": "Whimsical, dark, and visually stunning",
-                "desc5": "Every hidden detail in Halloween Town uncovered",
-                "desc6": "100 best stop-motion films of all time",
-                "desc7": "Behind the scenes of Jack and Sally’s iconic romance",
-                "desc8": "How The Nightmare Before Christmas became a holiday classic"
+                "desc1": "A multiverse-shattering adventure like never before",
+                "desc2": "See Spider-Man face his greatest challenge yet",
+                "desc3": "Only on the Web of Destiny Podcast",
+                "desc4": "Emotional, action-packed, and filled with surprises",
+                "desc5": "Every Spider-Man villain ranked",
+                "desc6": "100 biggest moments in the Spider-Verse",
+                "desc7": "Behind the scenes of the epic team-up",
+                "desc8": "How No Way Home reshaped the MCU"
             },
-            "img": "./images/TheNightmarebeforeChristmas/burton.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/Spider-Man-No-Way-Home.jpg",
             "image": {
-                "image1": "./images/TheNightmarebeforeChristmas/image1.jpg",
-                "image2": "./images/TheNightmarebeforeChristmas/image2.jpg",
-                "image3": "./images/TheNightmarebeforeChristmas/image3.jpg",
-                "image4": "./images/TheNightmarebeforeChristmas/image4.jpg",
-                "image5": "./images/TheNightmarebeforeChristmas/image5.jpg",
-                "image6": "./images/TheNightmarebeforeChristmas/image6.jpg",
-                "image7": "./images/TheNightmarebeforeChristmas/image7.jpg",
-                "image8": "./images/TheNightmarebeforeChristmas/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/Spider-Man-No-Way-Home/image8.jpeg"
             },
-            "video": "https://vidsrc.cc/v2/embed/movie/9479?autoPlay=true&poster=true"
+            "video": "https://vidsrc.cc/v2/embed/movie/634649?autoPlay=true&poster=true"
         },
         {
-            "name": "Batman - The Dark Knight",
+            "name": "The Marvels",
+            "rating": "🍅 90% 🍿 85%",
+            "watchlist": "2023-09-16",
+            "description": {
+                "desc1": "A cosmic adventure uniting three powerful heroes",
+                "desc2": "Captain Marvel, Ms. Marvel, and Monica Rambeau team up",
+                "desc3": "Only on the Cosmic Connections Podcast",
+                "desc4": "Action-packed, funny, and full of Marvel surprises",
+                "desc5": "Every major connection to the MCU explained",
+                "desc6": "100 greatest team-ups in Marvel history",
+                "desc7": "Behind the scenes of the intergalactic battles",
+                "desc8": "How The Marvels sets up the future of the MCU"
+            },
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/TheMarvels.jpg",
+            "image": {
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheMarvels/image8.jpeg"
+            },
+            "video": "https://vidsrc.cc/v2/embed/movie/609681?autoPlay=true&poster=true"
+        },
+        {
+            "name": "John Wick Chapter 1",
             "rating": "🍅 95% 🍿 91%",
             "watchlist": "2023-09-16",
             "description": {
-                "desc1": "A gripping battle between chaos and justice",
-                "desc2": "See Batman face his greatest foe, the Joker",
-                "desc3": "Only on the Gotham Chronicles Podcast",
-                "desc4": "Dark, intense, and a cinematic masterpiece",
-                "desc5": "Every hidden Easter egg you may have missed",
-                "desc6": "100 greatest superhero films of all time ranked",
-                "desc7": "Behind the scenes of Heath Ledger’s legendary performance",
-                "desc8": "How The Dark Knight redefined the superhero genre"
+                "desc1": "A retired hitman seeks vengeance in a world of assassins",
+                "desc2": "See how John Wick became the Baba Yaga",
+                "desc3": "Only on the Continental Files Podcast",
+                "desc4": "Stylish, intense, and action-packed",
+                "desc5": "Every brutal fight scene ranked",
+                "desc6": "100 best action movies of all time",
+                "desc7": "Behind the scenes of Keanu’s legendary stunts",
+                "desc8": "How John Wick redefined the action genre"
             },
-            "img": "./images/BatmanTheDarkKnight/darknight.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/john-wick.jpg",
             "image": {
-                "image1": "./images/BatmanTheDarkKnight/image1.jpg",
-                "image2": "./images/BatmanTheDarkKnight/image2.jpg",
-                "image3": "./images/BatmanTheDarkKnight/image3.jpg",
-                "image4": "./images/BatmanTheDarkKnight/image4.jpg",
-                "image5": "./images/BatmanTheDarkKnight/image5.jpg",
-                "image6": "./images/BatmanTheDarkKnight/image6.jpg",
-                "image7": "./images/BatmanTheDarkKnight/image7.jpg",
-                "image8": "./images/BatmanTheDarkKnight/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/JohnWickChapter1/image8.jpeg"
             },
-            "video": "https://vidsrc.cc/v2/embed/movie/155?autoPlay=true&poster=true"
-        },
-        {
-            "name": "Deadpool and Wolverine",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A battle between fate, free will, and mischief",
-                "desc2": "Loki’s journey beyond the Avengers continues",
-                "desc3": "Only on the TVA Case Files Podcast",
-                "desc4": "Unexpected friendships and shocking betrayals",
-                "desc5": "The TVA’s biggest secrets uncovered",
-                "desc6": "How the show connects to future Marvel films",
-                "desc7": "All the variants and their unique abilities",
-                "desc8": "Will Loki ever reunite with Thor?"
-            },
-            "img": "./images/DeadpoolandWolverine/deadpool-wolverin.jpg",
-            "image": {
-                "image1": "./images/DeadpoolandWolverine/image1.jpg",
-                "image2": "./images/DeadpoolandWolverine/image2.jpg",
-                "image3": "./images/DeadpoolandWolverine/image3.jpg",
-                "image4": "./images/DeadpoolandWolverine/image4.jpg",
-                "image5": "./images/DeadpoolandWolverine/image5.jpg",
-                "image6": "./images/DeadpoolandWolverine/image6.jpg",
-                "image7": "./images/DeadpoolandWolverine/image7.jpg",
-                "image8": "./images/DeadpoolandWolverine/image8.jpg"
-            },
-            "video": "https://go.screenpal.com/player/cTnXhfnhDCt?ff=true&controls=1&sec=0&watchPage=true%22&mute=0&autoplay=1"
-        },
-        {
-            "name": "Emilia Pérez ",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A gripping crime musical blending drama and transformation",
-                "desc2": "Follow a cartel leader’s journey to a new identity",
-                "desc3": "Only on the Underworld Chronicles Podcast",
-                "desc4": "Bold, emotional, and visually striking",
-                "desc5": "Every hidden detail behind Emilia’s transformation",
-                "desc6": "100 greatest crime films of the decade",
-                "desc7": "Behind the scenes of Jacques Audiard’s visionary storytelling",
-                "desc8": "How Emilia Pérez redefines crime cinema with music and identity"
-            },
-            "img": "./images/EmiliaPérez/emilia-periz.jpg",
-            "image": {
-                "image1": "./images/EmiliaPérez/image1.jpg",
-                "image2": "./images/EmiliaPérez/image2.jpg",
-                "image3": "./images/EmiliaPérez/image3.jpg",
-                "image4": "./images/EmiliaPérez/image4.jpg",
-                "image5": "./images/EmiliaPérez/image5.jpg",
-                "image6": "./images/EmiliaPérez/image6.jpg",
-                "image7": "./images/EmiliaPérez/image7.jpg",
-                "image8": "./images/EmiliaPérez/image8.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/974950?autoPlay=true&poster=true"
-        },
-        {
-            "name": "The Venom 2 (II) Let there be a Carnage",
-            "rating": "🍅 90% 🍿 85%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "26 collections centered on everything from horror classics to book adaptations",
-                "desc2": "See where Venom: The Last Dance places",
-                "desc3": "Only on the Awards Tour Podcast",
-                "desc4": "Silly , heartfelt , and strictly for fans",
-                "desc5": "Every dark and dreary delight coming out this year",
-                "desc6": "100 bloody films to choose from",
-                "desc7": "From the settings and stars to its story",
-                "desc8": "The Terminator turns 40 !"
-            },
-            "img": "./images/TheVenom2/venom2.jpg",
-            "image": {
-                "image1": "./images/TheVenom2/image1.jpg",
-                "image2": "./images/TheVenom2/image2.jpg",
-                "image3": "./images/TheVenom2/image3.jpg",
-                "image4": "./images/TheVenom2/image4.jpg",
-                "image5": "./images/TheVenom2/image5.jpg",
-                "image6": "./images/TheVenom2/image6.jpg",
-                "image7": "./images/TheVenom2/image7.jpg",
-                "image8": "./images/TheVenom2/image8.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/580489?autoPlay=true&poster=true"
+            "video": "https://vidsrc.cc/v2/embed/movie/245891?autoPlay=true&poster=true"
         }
     ],
     "Latest-In-Streaming": [
@@ -750,50 +686,23 @@
                 "desc7": "Behind the scenes of Spider-Man’s greatest moments",
                 "desc8": "A landmark in comic book adaptations"
             },
-            "img": "./images/spiderman2/spiderman2.jpeg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/spiderman2.jpeg",
             "image": {
-                "image1": "./images/spiderman2/image1.jpeg",
-                "image2": "./images/spiderman2/image2.jpeg",
-                "image3": "./images/spiderman2/image3.jpeg",
-                "image4": "./images/spiderman2/image4.jpeg",
-                "image5": "./images/spiderman2/image5.jpeg",
-                "image6": "./images/spiderman2/image6.jpeg",
-                "image7": "./images/spiderman2/image7.jpeg",
-                "image8": "./images/spiderman2/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/spiderman2/image8.jpeg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/558?autoPlay=true&poster=true"
-        },
-        {
-            "name": "Batman - The Dark Knight",
-            "rating": "🍅 95% 🍿 91%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A gripping battle between chaos and justice",
-                "desc2": "See Batman face his greatest foe, the Joker",
-                "desc3": "Only on the Gotham Chronicles Podcast",
-                "desc4": "Dark, intense, and a cinematic masterpiece",
-                "desc5": "Every hidden Easter egg you may have missed",
-                "desc6": "100 greatest superhero films of all time ranked",
-                "desc7": "Behind the scenes of Heath Ledger’s legendary performance",
-                "desc8": "How The Dark Knight redefined the superhero genre"
-            },
-            "img": "./images/BatmanTheDarkKnight/darknight.jpg",
-            "image": {
-                "image1": "./images/BatmanTheDarkKnight/image1.jpg",
-                "image2": "./images/BatmanTheDarkKnight/image2.jpg",
-                "image3": "./images/BatmanTheDarkKnight/image3.jpg",
-                "image4": "./images/BatmanTheDarkKnight/image4.jpg",
-                "image5": "./images/BatmanTheDarkKnight/image5.jpg",
-                "image6": "./images/BatmanTheDarkKnight/image6.jpg",
-                "image7": "./images/BatmanTheDarkKnight/image7.jpg",
-                "image8": "./images/BatmanTheDarkKnight/image8.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/155?autoPlay=true&poster=true"
-        },
+        },    
         {
             "name": "Iron Man",
             "rating": "🍅 94% --",
-            "watchlist": "https://archive.org/embed/ironman-720p",
+            "watchlist": "https://go.screenpal.com/player/cTnXe0nhDvo?ff=true&controls=1&sec=0&watchPage=true%22&mute=0&autoplay=1",
             "description": {
                 "desc1": "The movie that launched the MCU",
                 "desc2": "Robert Downey Jr. shines as Tony Stark",
@@ -804,18 +713,18 @@
                 "desc7": "Behind the scenes with the VFX team",
                 "desc8": "A defining moment in cinematic history"
             },
-            "img": "./images/ironman/ironman.jpeg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/ironman.jpeg",
             "image": {
-                "image1": "./images/ironman/image1.jpeg",
-                "image2": "./images/ironman/image2.jpeg",
-                "image3": "./images/ironman/image3.jpeg",
-                "image4": "./images/ironman/image4.jpeg",
-                "image5": "./images/ironman/image5.jpeg",
-                "image6": "./images/ironman/image6.jpeg",
-                "image7": "./images/ironman/image7.jpeg",
-                "image8": "./images/ironman/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/ironman/image8.jpeg"
             },
-            "video": "https://go.screenpal.com/player/cTnXe0nhDvo?ff=true&controls=1&sec=0&watchPage=true%22&mute=0&autoplay=1"
+            "video": "./videos/Iron-man.mp4"
         },
         {
             "name": "Avengers: Endgame",
@@ -831,16 +740,16 @@
                 "desc7": "The emotional farewell to Iron Man and Cap",
                 "desc8": "Time travel theories explained"
             },
-            "img": "./images/endgame/endgame.jpeg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/endgame.jpeg",
             "image": {
-                "image1": "./images/endgame/image1.jpeg",
-                "image2": "./images/endgame/image2.jpeg",
-                "image3": "./images/endgame/image3.jpeg",
-                "image4": "./images/endgame/image4.jpeg",
-                "image5": "./images/endgame/image5.jpeg",
-                "image6": "./images/endgame/image6.jpeg",
-                "image7": "./images/endgame/image7.jpeg",
-                "image8": "./images/endgame/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/endgame/image8.jpeg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/299534?autoPlay=true&poster=true"
         },
@@ -858,155 +767,22 @@
                 "desc7": "Deadpool 3: What’s next?",
                 "desc8": "The best fourth-wall breaks in film"
             },
-            "img": "./images/deadpool/deadpool.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/deadpool.jpg",
             "image": {
-                "image1": "./images/deadpool/image1.jpeg",
-                "image2": "./images/deadpool/image2.jpeg",
-                "image3": "./images/deadpool/image3.jpeg",
-                "image4": "./images/deadpool/image4.jpeg",
-                "image5": "./images/deadpool/image5.jpeg",
-                "image6": "./images/deadpool/image6.jpeg",
-                "image7": "./images/deadpool/image7.jpeg",
-                "image8": "./images/deadpool/image8.jpeg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image1.jpeg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image2.jpeg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image3.jpeg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image4.jpeg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image5.jpeg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image6.jpeg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image7.jpeg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/deadpool/image8.jpeg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/293660?autoPlay=true&poster=true"
         }
     ],
     "All-Time-Favorites": [
-        {
-            "name": "Hulk Full Movie",
-            "rating": "🍅 10% --",
-            "watchlist": "https://archive.org/embed/hulk-720p",
-            "description": {
-                "desc1": "A gripping origin story of Marvel’s green giant",
-                "desc2": "See Bruce Banner struggle with his unstoppable rage",
-                "desc3": "Only on the Gamma Radiation Files Podcast",
-                "desc4": "Intense, emotional, and visually unique",
-                "desc5": "Every transformation scene ranked",
-                "desc6": "100 greatest superhero movies of all time",
-                "desc7": "Behind the scenes of Hulk’s groundbreaking CGI",
-                "desc8": "How Hulk (2003) paved the way for future adaptations"
-            },
-            "img": "./images/hulk2003/hulk2003.jpg",
-            "image": {
-                "image1": "./images/hulk2003/image1.jpg",
-                "image2": "./images/hulk2003/image2.jpg",
-                "image3": "./images/hulk2003/image3.jpg",
-                "image4": "./images/hulk2003/image4.jpg",
-                "image5": "./images/hulk2003/image5.jpg",
-                "image6": "./images/hulk2003/image6.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/1927?autoPlay=true&poster=true"
-        },
-        {
-            "name": "Loki Season 1",
-            "rating": "🍅 30% 🍿 85%",
-            "watchlist": "2024-03-08",
-            "img": "./images/LokiSeason1/loki.png",
-            "description": {
-                "desc1": "A mind-bending journey through time and space",
-                "desc2": "See where Loki’s fate takes him after Endgame",
-                "desc3": "Only on the TVA Files Podcast",
-                "desc4": "Mischief, mystery, and Marvel’s best storytelling",
-                "desc5": "Every timeline variant explained",
-                "desc6": "100 reasons why Loki remains a fan favorite",
-                "desc7": "From the TVA’s secrets to Kang’s rise",
-                "desc8": "How Loki changed the MCU forever"
-            },
-            "image": {
-                "image1": "./images/LokiSeason1/image1.jpg",
-                "image2": "./images/LokiSeason1/image2.jpg",
-                "image3": "./images/LokiSeason1/image3.jpg",
-                "image4": "./images/LokiSeason1/image4.jpg",
-                "image5": "./images/LokiSeason1/image5.jpg",
-                "image6": "./images/LokiSeason1/image6.jpg",
-                "image7": "./images/LokiSeason1/image7.jpg",
-                "image8": "./images/LokiSeason1/image8.jpg"
-            },
-            "video": "https://www.youtube.com/embed/nW948Va-l10?si=-N5oD0T8Djwzg72s",
-            "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
-        },
-        {
-            "name": "Agatha All Along",
-            "rating": "🍅 90% 🍿 15%",
-            "watchlist": "2017-09-28",
-            "description": {
-                "desc1": "A spellbinding journey into the dark side of magic",
-                "desc2": "Follow Agatha Harkness as she reclaims her power",
-                "desc3": "Only on the Witch’s Grimoire Podcast",
-                "desc4": "Mysterious, wickedly fun, and full of surprises",
-                "desc5": "Every magical secret hidden in plain sight",
-                "desc6": "100 most powerful witches in the MCU",
-                "desc7": "Behind the scenes of Agatha’s bewitching transformation",
-                "desc8": "How Agatha All Along connects to the future of Marvel"
-            },
-            "img": "./images/AgathaAllAlong/agatha.jpg",
-            "image": {
-                "image1": "./images/AgathaAllAlong/image1.jpg",
-                "image2": "./images/AgathaAllAlong/image2.jpg",
-                "image3": "./images/AgathaAllAlong/image3.jpg",
-                "image4": "./images/AgathaAllAlong/image4.jpg",
-                "image5": "./images/AgathaAllAlong/image5.jpg",
-                "image6": "./images/AgathaAllAlong/image6.jpg",
-                "image7": "./images/AgathaAllAlong/image7.jpg",
-                "image8": "./images/AgathaAllAlong/image8.jpg"
-            },
-            "video": "https://youtu.be/R9pXbNz6Vbw?si=-MmgCXrCjfBbtQUY"
-        },
-        {
-            "name": "Breaking Brad Season 1",
-            "rating": "🍅 85% 🍿 88%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A high school teacher turns to a life of crime",
-                "desc2": "Witness Walter White’s transformation into Heisenberg",
-                "desc3": "Only on the Blue Crystal Chronicles Podcast",
-                "desc4": "Gritty, intense, and masterfully written",
-                "desc5": "Every shocking twist in Season 1 explained",
-                "desc6": "100 greatest TV dramas of all time ranked",
-                "desc7": "Behind the scenes of Walter and Jesse’s first cook",
-                "desc8": "How Breaking Bad redefined television storytelling"
-            },
-            "img": "./images/BreakingBradSeason1/breakingbrad.jpg",
-            "image": {
-                "image1": "./images/BreakingBradSeason1/image1.jpg",
-                "image2": "./images/BreakingBradSeason1/image2.jpg",
-                "image3": "./images/BreakingBradSeason1/image3.jpg",
-                "image4": "./images/BreakingBradSeason1/image4.jpg",
-                "image5": "./images/BreakingBradSeason1/image5.jpg",
-                "image6": "./images/BreakingBradSeason1/image6.jpg",
-                "image7": "./images/BreakingBradSeason1/image7.jpg",
-                "image8": "./images/BreakingBradSeason1/image8.jpg"
-            },
-            "video": "https://www.youtube.com/embed/HhesaQXLuRY?si=ZijA0j02muHous9P"
-        },
-        {
-            "name": "Tim Burton's The Nightmare before Christmas",
-            "rating": "🍅 20% -🍿 35%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A magical tale blending Halloween and Christmas",
-                "desc2": "Follow Jack Skellington’s journey of self-discovery",
-                "desc3": "Only on the Pumpkin King Chronicles Podcast",
-                "desc4": "Whimsical, dark, and visually stunning",
-                "desc5": "Every hidden detail in Halloween Town uncovered",
-                "desc6": "100 best stop-motion films of all time",
-                "desc7": "Behind the scenes of Jack and Sally’s iconic romance",
-                "desc8": "How The Nightmare Before Christmas became a holiday classic"
-            },
-            "img": "./images/TheNightmarebeforeChristmas/burton.jpg",
-            "image": {
-                "image1": "./images/TheNightmarebeforeChristmas/image1.jpg",
-                "image2": "./images/TheNightmarebeforeChristmas/image2.jpg",
-                "image3": "./images/TheNightmarebeforeChristmas/image3.jpg",
-                "image4": "./images/TheNightmarebeforeChristmas/image4.jpg",
-                "image5": "./images/TheNightmarebeforeChristmas/image5.jpg",
-                "image6": "./images/TheNightmarebeforeChristmas/image6.jpg",
-                "image7": "./images/TheNightmarebeforeChristmas/image7.jpg",
-                "image8": "./images/TheNightmarebeforeChristmas/image8.jpg"
-            },
-            "video": "https://vidsrc.cc/v2/embed/movie/9479?autoPlay=true&poster=true"
-        },
+        
         {
             "name": "Batman - The Dark Knight",
             "rating": "🍅 95% 🍿 91%",
@@ -1021,143 +797,277 @@
                 "desc7": "Behind the scenes of Heath Ledger’s legendary performance",
                 "desc8": "How The Dark Knight redefined the superhero genre"
             },
-            "img": "./images/BatmanTheDarkKnight/darknight.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/darknight.jpg",
             "image": {
-                "image1": "./images/BatmanTheDarkKnight/image1.jpg",
-                "image2": "./images/BatmanTheDarkKnight/image2.jpg",
-                "image3": "./images/BatmanTheDarkKnight/image3.jpg",
-                "image4": "./images/BatmanTheDarkKnight/image4.jpg",
-                "image5": "./images/BatmanTheDarkKnight/image5.jpg",
-                "image6": "./images/BatmanTheDarkKnight/image6.jpg",
-                "image7": "./images/BatmanTheDarkKnight/image7.jpg",
-                "image8": "./images/BatmanTheDarkKnight/image8.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/BatmanTheDarkKnight/image8.jpg"
             },
             "video": "https://vidsrc.cc/v2/embed/movie/155?autoPlay=true&poster=true"
         },
         {
-            "name": "I Am Groot || Season 1 ||Episode - Groot`s First Steps",
-            "rating": "🍅 85% 🍿 88%",
-            "watchlist": "2023-09-16",
+            "name": "Deadpool and Wolverine",
+            "rating": "🍅 90% 🍿 85%",
+            "watchlist": "https://youtu.be/1BRKly8RlhQ",
             "description": {
-                "desc1": "A high school teacher turns to a life of crime",
-                "desc2": "Witness Walter White’s transformation into Heisenberg",
-                "desc3": "Only on the Blue Crystal Chronicles Podcast",
-                "desc4": "Gritty, intense, and masterfully written",
-                "desc5": "Every shocking twist in Season 1 explained",
-                "desc6": "100 greatest TV dramas of all time ranked",
-                "desc7": "Behind the scenes of Walter and Jesse’s first cook",
-                "desc8": "How Breaking Bad redefined television storytelling"
+                "desc1": "A battle between fate, free will, and mischief",
+                "desc2": "Loki’s journey beyond the Avengers continues",
+                "desc3": "Only on the TVA Case Files Podcast",
+                "desc4": "Unexpected friendships and shocking betrayals",
+                "desc5": "The TVA’s biggest secrets uncovered",
+                "desc6": "How the show connects to future Marvel films",
+                "desc7": "All the variants and their unique abilities",
+                "desc8": "Will Loki ever reunite with Thor?"
             },
-            "img": "./images/IAmGroot.GrootsFirstSteps/IAmGroot.GrootsFirstSteps.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/deadpool-wolverin.jpg",
             "image": {
-                "image1": "./images/IAmGroot.GrootsFirstSteps/image1.jpg",
-                "image2": "./images/IAmGroot.GrootsFirstSteps/image2.jpg",
-                "image3": "./images/IAmGroot.GrootsFirstSteps/image3.jpg",
-                "image4": "./images/IAmGroot.GrootsFirstSteps/image4.jpg",
-                "image5": "./images/IAmGroot.GrootsFirstSteps/image5.jpg",
-                "image6": "./images/IAmGroot.GrootsFirstSteps/image6.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/DeadpoolandWolverine/image8.jpg"
             },
-            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.GrootsFirstSteps.mp4",
-            "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
+            "video": "https://go.screenpal.com/player/cTnXhfnhDCt?ff=true&controls=1&sec=0&watchPage=true%22&mute=0&autoplay=1"
         },
         {
-            "name": "I Am Groot || Season 1 ||Episode - Groot`s Pursuit",
-            "rating": "🍅 85% 🍿 88%",
+            "name": "Emilia Pérez ",
+            "rating": "🍅 90% 🍿 85%",
             "watchlist": "2023-09-16",
             "description": {
-                "desc1": "A high school teacher turns to a life of crime",
-                "desc2": "Witness Walter White’s transformation into Heisenberg",
-                "desc3": "Only on the Blue Crystal Chronicles Podcast",
-                "desc4": "Gritty, intense, and masterfully written",
-                "desc5": "Every shocking twist in Season 1 explained",
-                "desc6": "100 greatest TV dramas of all time ranked",
-                "desc7": "Behind the scenes of Walter and Jesse’s first cook",
-                "desc8": "How Breaking Bad redefined television storytelling"
+                "desc1": "A gripping crime musical blending drama and transformation",
+                "desc2": "Follow a cartel leader’s journey to a new identity",
+                "desc3": "Only on the Underworld Chronicles Podcast",
+                "desc4": "Bold, emotional, and visually striking",
+                "desc5": "Every hidden detail behind Emilia’s transformation",
+                "desc6": "100 greatest crime films of the decade",
+                "desc7": "Behind the scenes of Jacques Audiard’s visionary storytelling",
+                "desc8": "How Emilia Pérez redefines crime cinema with music and identity"
             },
-            "img": "./images/IAmGroot.GrootsPursuit/IAmGroot.GrootsPursuit.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/emilia-periz.jpg",
             "image": {
-                "image1": "./images/IAmGroot.GrootsPursuit/image1.jpg",
-                "image2": "./images/IAmGroot.GrootsPursuit/image2.jpg",
-                "image3": "./images/IAmGroot.GrootsPursuit/image3.jpg",
-                "image4": "./images/IAmGroot.GrootsPursuit/image4.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/EmiliaPérez/image8.jpg"
             },
-            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.GrootsPursuit.mp4",
-            "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
+            "video": "https://vidsrc.cc/v2/embed/movie/974950?autoPlay=true&poster=true"
         },
         {
-            "name": "I Am Groot || Season 1 ||Episode - MagnumOpus",
-            "rating": "🍅 85% 🍿 88%",
-            "watchlist": "2023-09-16",
+            "name": "The Venom 2 (II) Let there be a Carnage",
+            "rating": "🍅 90% 🍿 85%",
+            "watchlist": "https://vidsrc.cc/v2/embed/movie/580489?autoPlay=true&poster=true",
             "description": {
-                "desc1": "A high school teacher turns to a life of crime",
-                "desc2": "Witness Walter White’s transformation into Heisenberg",
-                "desc3": "Only on the Blue Crystal Chronicles Podcast",
-                "desc4": "Gritty, intense, and masterfully written",
-                "desc5": "Every shocking twist in Season 1 explained",
-                "desc6": "100 greatest TV dramas of all time ranked",
-                "desc7": "Behind the scenes of Walter and Jesse’s first cook",
-                "desc8": "How Breaking Bad redefined television storytelling"
+                "desc1": "26 collections centered on everything from horror classics to book adaptations",
+                "desc2": "See where Venom: The Last Dance places",
+                "desc3": "Only on the Awards Tour Podcast",
+                "desc4": "Silly , heartfelt , and strictly for fans",
+                "desc5": "Every dark and dreary delight coming out this year",
+                "desc6": "100 bloody films to choose from",
+                "desc7": "From the settings and stars to its story",
+                "desc8": "The Terminator turns 40 !"
             },
-            "img": "./images/IAmGroot.MagnumOpus/IAmGroot-MagnumOpus.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/venom2.jpg",
             "image": {
-                "image1": "./images/IAmGroot.MagnumOpus/image1.jpg",
-                "image2": "./images/IAmGroot.MagnumOpus/image2.jpg",
-                "image3": "./images/IAmGroot.MagnumOpus/image3.jpg",
-                "image4": "./images/IAmGroot.MagnumOpus/image4.jpg",
-                "image5": "./images/IAmGroot.MagnumOpus/image5.jpg",
-                "image6": "./images/IAmGroot.MagnumOpus/image6.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image7.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/TheVenom2/image8.jpg"
             },
-            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.MagnumOpus.mp4"
+            "video": "https://vidsrc.cc/v2/embed/movie/580489?autoPlay=true&poster=true"
         },
         {
-            "name": "I Am Groot || Season 1 ||Episode - MagnumOpus",
-            "rating": "🍅 85% 🍿 88%",
-            "watchlist": "2023-09-16",
+            "name": "I Am Groot Season 1 ",
+            "rating": "🍅 30% 🍿 85%",
+            "watchlist": "https://www.youtube.com/oKik7cB5qYs?si=KXL4K5v6Sxu-vwi_",
             "description": {
-                "desc1": "A high school teacher turns to a life of crime",
-                "desc2": "Witness Walter White’s transformation into Heisenberg",
-                "desc3": "Only on the Blue Crystal Chronicles Podcast",
-                "desc4": "Gritty, intense, and masterfully written",
-                "desc5": "Every shocking twist in Season 1 explained",
-                "desc6": "100 greatest TV dramas of all time ranked",
-                "desc7": "Behind the scenes of Walter and Jesse’s first cook",
-                "desc8": "How Breaking Bad redefined television storytelling"
+                "desc1": "A fun and mischievous journey with Baby Groot",
+                "desc2": "See Groot explore the galaxy in adorable mini-adventures",
+                "desc3": "Only on the Guardians’ Logs Podcast",
+                "desc4": "Cute, hilarious, and full of heart",
+                "desc5": "Every hidden Marvel Easter egg in the series",
+                "desc6": "100 best animated shorts in the MCU",
+                "desc7": "Behind the scenes of Groot’s CGI magic",
+                "desc8": "How I Am Groot adds charm to the Guardians' universe"
             },
-            "img": "./images/IAmGroot.TheLittleGuy/IAmGroot.TheLittleGuy.jpg",
+            "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/I-Am-Groot-Season-1.jpg",
             "image": {
-                "image1": "./images/IAmGroot.TheLittleGuy/image1.jpg",
-                "image2": "./images/IAmGroot.TheLittleGuy/image2.jpg",
-                "image3": "./images/IAmGroot.TheLittleGuy/image3.jpg",
-                "image4": "./images/IAmGroot.TheLittleGuy/image4.jpg",
-                "image5": "./images/IAmGroot.TheLittleGuy/image5.jpg",
-                "image6": "./images/IAmGroot.TheLittleGuy/image6.jpg"
+                "image1": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsFirstSteps/image1.jpg",
+                "image2": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsFirstSteps/image2.jpg",
+                "image3": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsFirstSteps/image3.jpg",
+                "image4": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsFirstSteps/image4.jpg",
+                "image5": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsFirstSteps/image5.jpg",
+                "image6": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsFirstSteps/image6.jpg",
+                "image7": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsPursuit/image1.jpg",
+                "image8": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsPursuit/image2.jpg",
+                "image9": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsPursuit/image3.jpg",
+                "image10": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsPursuit/image4.jpg",
+                "image11": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.MagnumOpus/image1.jpg",
+                "image12": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.MagnumOpus/image2.jpg",
+                "image13": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.MagnumOpus/image3.jpg",
+                "image14": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.MagnumOpus/image4.jpg",
+                "image15": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.MagnumOpus/image5.jpg",
+                "image16": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.MagnumOpus/image6.jpg",
+                "image17": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.TheLittleGuy/image1.jpg",
+                "image18": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.TheLittleGuy/image2.jpg",
+                "image19": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.TheLittleGuy/image3.jpg",
+                "image20": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.TheLittleGuy/image4.jpg",
+                "image21": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.TheLittleGuy/image5.jpg",
+                "image22": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.TheLittleGuy/image6.jpg",
+                "image23": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGrootGrootTakesaBath/image1.jpg",
+                "image24": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGrootGrootTakesaBath/image2.jpg",
+                "image25": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGrootGrootTakesaBath/image3.jpg",
+                "image26": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGrootGrootTakesaBath/image4.jpg",
+                "image27": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGrootGrootTakesaBath/image5.jpg",
+                "image28": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGrootGrootTakesaBath/image6.jpg"
             },
-            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp4"
-        },
-        {
-            "name": "I Am Groot || Season 1 ||Episode - Groot Takes a Bath",
-            "rating": "🍅 85% 🍿 88%",
-            "watchlist": "2023-09-16",
-            "description": {
-                "desc1": "A high school teacher turns to a life of crime",
-                "desc2": "Witness Walter White’s transformation into Heisenberg",
-                "desc3": "Only on the Blue Crystal Chronicles Podcast",
-                "desc4": "Gritty, intense, and masterfully written",
-                "desc5": "Every shocking twist in Season 1 explained",
-                "desc6": "100 greatest TV dramas of all time ranked",
-                "desc7": "Behind the scenes of Walter and Jesse’s first cook",
-                "desc8": "How Breaking Bad redefined television storytelling"
-            },
-            "img": "./images/IamGrootGrootTakesaBath/IamGrootGrootTakesaBath.jpg",
-            "image": {
-                "image1": "./images/IamGrootGrootTakesaBath/image1.jpg",
-                "image2": "./images/IamGrootGrootTakesaBath/image2.jpg",
-                "image3": "./images/IamGrootGrootTakesaBath/image3.jpg",
-                "image4": "./images/IamGrootGrootTakesaBath/image4.jpg",
-                "image5": "./images/IamGrootGrootTakesaBath/image5.jpg",
-                "image6": "./images/IamGrootGrootTakesaBath/image6.jpg"
-            },
-            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IamGrootGrootTakesaBath.mp4"
+            "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/I-Am-Groot-Season-1.mp4",
+            "episode": [
+                {
+                    "name": "I Am Groot || Season 1 ||Episode - Groot`s First Steps",
+                    "rating": "🍅 85% 🍿 88%",
+                    "watchlist": "2023-09-16",
+                    "description": {
+                        "desc1": "Baby Groot takes his first steps into adventure",
+                        "desc2": "See how Groot learns to walk in his own mischievous way",
+                        "desc3": "Only on the Guardians’ Logs Podcast",
+                        "desc4": "Adorable, funny, and full of heart",
+                        "desc5": "Every hidden Marvel Easter egg in this short",
+                        "desc6": "100 cutest moments in the MCU",
+                        "desc7": "Behind the scenes of Baby Groot’s animation",
+                        "desc8": "How Groot’s First Steps sets the tone for his adventures",
+                        "episode_explanation": {
+                            "Opening Scene": "Groot wakes up in a pot but gets replaced by a bonsai tree on the Guardians’ ship.",
+                            "Breaking Free": "Determined, Groot struggles until he finally breaks free of his pot.",
+                            "First Steps": "Wobbly but excited, Groot learns to walk, discovering his tiny but mighty strength.",
+                            "Trouble Strikes": "His playful stomping accidentally breaks his new home.",
+                            "Ending": "Despite the mess, Groot confidently struts away, ready for more adventures."
+                        }
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsFirstSteps/IAmGroot.GrootsFirstSteps.jpg",
+                    "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.GrootsFirstSteps.mp4",
+                    "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
+                },
+                {
+                    "name": "I Am Groot || Season 1 ||Episode - Groot`s Pursuit",
+                    "rating": "🍅 85% 🍿 88%",
+                    "watchlist": "2023-09-16",
+                    "description": {
+                        "desc1": "Baby Groot embarks on a thrilling and mysterious chase",
+                        "desc2": "See Groot encounter a strange entity in deep space",
+                        "desc3": "Only on the Guardians’ Logs Podcast",
+                        "desc4": "Spooky, fun, and full of surprises",
+                        "desc5": "Every hidden Marvel Easter egg in this episode",
+                        "desc6": "100 most unexpected moments in the MCU",
+                        "desc7": "Behind the scenes of Groot’s animated adventure",
+                        "desc8": "How Groot’s Pursuit blends humor and suspense",
+                        "episode_explanation": {
+                            "Opening Scene": "Groot wakes up alone on the Guardians’ ship and notices something moving in the shadows.",
+                            "The Mysterious Figure": "Curious, he follows the strange glowing entity floating around.",
+                            "A Playful Imitation": "The entity mimics Groot’s movements, leading to a dance-off.",
+                            "Unexpected Trouble": "Groot realizes the creature is copying him exactly and tries to outsmart it.",
+                            "Tension Builds": "Things escalate when Groot tricks the entity, trapping it in an airlock.",
+                            "Ending": "He proudly watches as it gets sucked into space, only to realize another one appears behind him."
+                        }
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.GrootsPursuit/IAmGroot.GrootsPursuit.jpg",
+                    "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.GrootsPursuit.mp4",
+                    "audio": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp3"
+                },
+                {
+                    "name": "I Am Groot || Season 1 ||Episode - MagnumOpus",
+                    "rating": "🍅 85% 🍿 88%",
+                    "watchlist": "2023-09-16",
+                    "description": {
+                        "desc1": "Groot’s artistic side shines in a creative masterpiece",
+                        "desc2": "See Groot collect random items to create his ultimate artwork",
+                        "desc3": "Only on the Guardians’ Logs Podcast",
+                        "desc4": "Whimsical, hilarious, and full of heart",
+                        "desc5": "Every hidden Marvel reference in Groot’s artwork",
+                        "desc6": "100 funniest moments in the MCU",
+                        "desc7": "Behind the scenes of Groot’s imaginative world",
+                        "desc8": "How Magnum Opus captures Groot’s playful personality",
+                        "episode_explanation": {
+                            "Opening Scene": "Groot gathers materials aboard the Guardians’ ship, determined to create something special.",
+                            "Collecting Supplies": "He mischievously takes items like Rocket’s tail fur, Drax’s soap, and other random belongings.",
+                            "Creative Chaos": "Using his gathered supplies, Groot assembles a messy yet colorful collage.",
+                            "Rocket’s Discovery": "Rocket walks in, shocked at the mess Groot has created.",
+                            "The Big Reveal": "Groot proudly presents his artwork – a heartfelt drawing of the Guardians.",
+                            "Rocket’s Reaction": "Instead of getting angry, Rocket is touched by the gesture.",
+                            "Ending": "Rocket keeps the artwork, showing the strong bond between him and Groot."
+                        }
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.MagnumOpus/IAmGroot-MagnumOpus.jpg",
+                    "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.MagnumOpus.mp4"
+                },
+                {
+                    "name": "I Am Groot || Season 1 ||Episode - The Little Guy",
+                    "rating": "🍅 85% 🍿 88%",
+                    "watchlist": "2023-09-16",
+                    "description": {
+                        "desc1": "Groot discovers he might not be the smallest after all",
+                        "desc2": "See Groot encounter a tiny civilization in the wild",
+                        "desc3": "Only on the Guardians’ Logs Podcast",
+                        "desc4": "Funny, charming, and full of surprises",
+                        "desc5": "Every hidden Marvel reference in this tiny adventure",
+                        "desc6": "100 most adorable moments in the MCU",
+                        "desc7": "Behind the scenes of Groot’s tiny encounter",
+                        "desc8": "How The Little Guy explores Groot’s playful curiosity",
+                        "episode_explanation": {
+                            "Opening Scene": "Groot explores an alien planet, wandering through its strange terrain.",
+                            "A Tiny Civilization": "He discovers a microscopic alien city beneath a rock.",
+                            "Curious Interaction": "Groot observes the tiny creatures, unaware of his giant presence.",
+                            "Accidental Chaos": "His playful movements cause destruction, making the aliens panic.",
+                            "A Surprising Twist": "The tiny aliens regroup and attack Groot with tiny weapons.",
+                            "Groot’s Response": "Startled, Groot sneezes, causing a windstorm that helps them rebuild.",
+                            "Ending": "The aliens cheer for him, and Groot happily dances away, oblivious to his unintended impact."
+                        }
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGroot.TheLittleGuy/IAmGroot.TheLittleGuy.jpg",
+                    "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IAmGroot.TheLittleGuy.mp4"
+                },
+                {
+                    "name": "I Am Groot || Season 1 ||Episode - Groot Takes a Bath",
+                    "rating": "🍅 85% 🍿 88%",
+                    "watchlist": "2023-09-16",
+                    "description": {
+                        "desc1": "Groot discovers the joys of a relaxing mud bath",
+                        "desc2": "See Groot’s playful antics as he experiments with nature",
+                        "desc3": "Only on the Guardians’ Logs Podcast",
+                        "desc4": "Cute, hilarious, and full of Groot’s mischief",
+                        "desc5": "Every hidden Marvel Easter egg in this episode",
+                        "desc6": "100 funniest Groot moments in the MCU",
+                        "desc7": "Behind the scenes of Groot’s animated fun",
+                        "desc8": "How Groot Takes a Bath showcases his playful personality",
+                        "episode_explanation": {
+                            "Opening Scene": "Groot stumbles upon a small puddle of mud on an alien planet and curiously steps into it.",
+                            "The Mud Bath Effect": "As he sinks deeper, the mud makes his branches grow rapidly, creating wild and wacky hairstyles.",
+                            "Groot’s Fashion Show": "Amused by his changing appearance, Groot starts styling his leaves into different looks, from an afro to a fancy mustache.",
+                            "Natural Beauty Salon": "He gathers leaves, twigs, and flowers to enhance his 'spa day,' having the time of his life.",
+                            "A Feathered Surprise": "A nearby bird-like creature steals some of his leaves, leading to a humorous chase.",
+                            "The Big Trim": "Eventually, Groot realizes his overgrown branches are too much to handle, so he shakes them off, returning to his tiny form.",
+                            "Ending": "Feeling refreshed, Groot struts away happily, leaving behind a trail of fallen leaves as nature reclaims them."
+                        }
+                    },
+                    "img": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/I-Am-Groot-Season-1/IAmGrootGrootTakesaBath/IamGrootGrootTakesaBath.jpg",
+                    "video": "https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/uploads/IamGrootGrootTakesaBath.mp4"
+                }
+            ]
         }
     ]
 }
