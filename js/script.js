@@ -11,7 +11,7 @@ window.onload = () => {
                 getMoviesByCategory("All-Time-Favorites")
             ]);
 
-            const movieData = await fetch("./movie.json").then(res => res.json());
+            const movieData = await fetch("https://raw.githubusercontent.com/Ankitbhagat2062/Rotten-Tomatoes-Clone/main/movie.json").then(res => res.json());
             const categories = Object.keys(movieData);
             renderMovieSections(categories, movieData)
             renderSlides(categories, movieData);
