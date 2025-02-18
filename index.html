@@ -6,49 +6,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Streaming Platform</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            display: none;
+        }
 
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+
+        .episode-video {
+            display: none;
+        }
+
+        .header-section {
+            position: relative;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .header-section:hover .background-video {
+            display: block;
+        }
+
+        .header-section:hover .background-image {
+            display: none;
+        }
+
+        .video-container iframe,
+        .video-container video {
+            width: 60vw;
+            height: 60vh;
+        }
+
+        .circular-button {
+            background-color: black;
+            opacity: 0.7;
+            border-radius: 50%;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .like-icon {
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+        }
+
+        .volume-button {
+            background-color: black;
+            opacity: 0.7;
+            border-radius: 50%;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .volume-icon {
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+        }
+
+        @media only screen and (orientation: landscape) {
+            .playlist {
+                max-width: 60vw;
+                margin: 0 auto;
+                /* Center the div */
+            }
+        }
+
+    </style>
+</head>
 
 <body>
     <!-- Header Section -->
     <header class="header">
-        <div class="logo">
-            <img src="https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/rotten-tomatoes-logo.png" alt="Platform Logo">
+        <div style="cursor: pointer;" class="logo">
+            <img src="https://raw.githubusercontent.com/Ankitbhagat2062/GAAC-Bot-Assets/main/Rotten-Tomatoes-Clone/images/rotten-tomatoes-logo.png"
+                alt="Platform Logo">
         </div>
         <div class="search-bar">
             <input type="text" id="search-input" placeholder="Search">
         </div>
     </header>
     <div id="search-results" style="display: none; padding: 1em; background-color: #f8f9fa;"></div>
+    <main>
+        <div id="Slide" style="position: relative;" class="">
+            <div class="Slide-container slideshow">
 
-    <!-- Slideshow Section -->
-    <div id="Slide" style="position: relative;" class="">
-        <div class="Slide-container slideshow">
-
-        </div>
-
-    </div>
-    <main id="movies">
-        <div class="movie-section">
+            </div>
 
         </div>
-        <!-- Suggested Videos Section -->
+        <section id="movies">
+            <div class="movie-section">
+
+            </div>
+        </section>
+        <section style="max-height: 100vh;" id="playlist" class="overflow-auto fixed top-0 left-0 w-full bg-black bg-opacity-90">
+            <span class="hidden z-10 close-modal">×</span>
+            <div class="playlist-section ">
+            </div>
+        </section>
     </main>
 
-    <!-- <iframe id="tontonin" src="https://vidsrc.cc/v2/embed/movie/1927?autoPlay=true&poster=true"allowfullscreen=""></iframe> -->
-    <footer class="footer">
-        <div class="footer-item">Discover</div>
-        <div class="footer-item">Movies</div>
-        <div class="footer-item">TV Shows</div>
-        <div class="footer-item">Guides</div>
-        <div class="footer-item">My Profile</div>
+    <footer>
+        <div class="footer">
+            <div class="footer-item">Discover</div>
+            <div class="footer-item">Movies</div>
+            <div class="footer-item">TV Shows</div>
+            <div class="footer-item">Guides</div>
+            <div class="footer-item">My Profile</div>
+        </div>
     </footer>
     <!-- JavaScript -->
     <script src="https://www.youtube.com/iframe_api"></script>
 
-
+    <script>
+        window.addEventListener('message', function (event) {
+            if (event.origin !== "https://vidsrc.cc") return; // Only allow messages from the trusted origin
+            if (event.data === 'popup') {
+                console.log("Popup blocked!");
+            }
+        });
+        window.addEventListener('beforeunload', function (event) {
+            event.preventDefault();
+            event.returnValue = ''; // Prevents navigation
+        });
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            link.setAttribute('target', '_self'); // Forces links to open in the same tab
+        });
+      
+        </script>
     <script src="./js/script.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/gh/Ankitbhagat2062/ROTTEN-TOMATOES-CLONE@latest/js/script.js?v=2"></script> -->
+    
 </body>
 
 </html>
