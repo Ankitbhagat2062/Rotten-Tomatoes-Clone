@@ -200,7 +200,7 @@ const main = async () => {
             getMoviesByCategory("All-Time-Favorites")
         ]);
 
-        const movieData = await fetch("./movie.json").then(res => res.json());
+        const movieData = await fetch("https://raw.githubusercontent.com/Ankitbhagat2062/Rotten-Tomatoes-Clone/main/movie.json").then(res => res.json());
         const categories = Object.keys(movieData);
         renderMovieSections(categories, movieData)
         renderSlides(categories, movieData);
@@ -530,7 +530,7 @@ const setUpCloneCard = async (clonedCard) => {
     const audioPlayer = videoModal.querySelector("#audio-player");
     const audioSource = videoModal.querySelector("#audio-source");
     const loadingScreen = videoModal.querySelector("#loading-screen");
-    let Data = await fetch('./movie.json').then(res => res.json())
+    let Data = await fetch('https://raw.githubusercontent.com/Ankitbhagat2062/Rotten-Tomatoes-Clone/main/movie.json').then(res => res.json())
     clonedCard.style.display = "none";
     let movieData = null;
     for (const category in Data) {
@@ -1014,7 +1014,7 @@ const createCardHTML = (video) => `
 
 const getMoviesByCategory = async (category) => {
     try {
-        const data = await fetch("./movie.json").then(res => res.json());
+        const data = await fetch("https://raw.githubusercontent.com/Ankitbhagat2062/Rotten-Tomatoes-Clone/main/movie.json").then(res => res.json());
         return data[category] || [];
     } catch (error) {
         return [];
