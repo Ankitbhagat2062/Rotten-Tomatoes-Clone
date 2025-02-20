@@ -406,7 +406,90 @@ body {
     position: relative;
     z-index: 10;
 }
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    display: none;
+}
 
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.episode-video {
+    display: none;
+}
+
+.header-section {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-section:hover .background-video {
+    display: block;
+}
+
+.header-section:hover .background-image {
+    display: none;
+}
+
+.video-container iframe,
+.video-container video {
+    width: 60vw;
+    height: 60vh;
+}
+
+.circular-button {
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.like-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.volume-button {
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.volume-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+@media only screen and (orientation: landscape) {
+    .playlist {
+        max-width: 60vw;
+        margin: 0 auto;
+        /* Center the div */
+    }
+}
 
 
 @media (max-width:720px) {
