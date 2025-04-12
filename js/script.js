@@ -36,43 +36,83 @@ function showLessCards() {
     }
 }
 function showMoreEpisode() {
-    const EpisodesList = document.querySelectorAll('.episode-content');
-    let hasRemaininghiddenCards = false;
-    EpisodesList.forEach(list => {
-        const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards'));
+    const moviesLists = document.querySelectorAll('.episode-content');
+    let hasRemainingCards = false;
+
+    moviesLists.forEach(list => {
+        const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: none;"]'));
         hiddenCards.slice(0, 3).forEach(card => {
-            if (card.style.display = 'none') {
-                card.style.display = 'flex';
-            }
-            else {
-                card.style.display = 'flex';
-            }
+            card.style.display = 'block';
         });
         if (hiddenCards.length > 3) {
-            hasRemaininghiddenCards = true;
+            hasRemainingCards = true;
         }
-        list.querySelector('.showMoreEpisode-down').style.display = hasRemaininghiddenCards ? 'block' : 'none';
-        list.querySelector('#show-less-Episode').classList.remove('hidden')
     });
+    MoviesContainer.querySelector('.showMoreEpisode-down').style.display = hasRemainingCards ? 'block' : 'none';
+    MoviesContainer.querySelector('#show-less-Episode').classList.remove('hidden');
 }
 function showLessEpisode() {
-    const EpisodesList = document.querySelectorAll('.episode-content');
+    const moviesLists = document.querySelectorAll('.episode-content');
     let hasRemainingVisibleCards = false;
-    EpisodesList.forEach(list => {
-        const visibleCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: flex;"]'));
+
+    moviesLists.forEach(list => {
+        const visibleCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: block;"]'));
         visibleCards.slice(-3).forEach(card => {
             card.style.display = 'none';
         });
-        const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards[style="display: flex;"]'));
+        const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards[style="display: block;"]'));
         if (remainingVisible.length > 0) {
             hasRemainingVisibleCards = true;
         }
-        list.querySelector('.showMoreEpisode-down').style.display = 'block';
-        if (!hasRemainingVisibleCards) {
-            list.querySelector('#show-less-Episode').classList.add('hidden')
-        }
     });
+    MoviesContainer.querySelector('.showMoreEpisode-down').style.display = 'block';
+    if (!hasRemainingVisibleCards) {
+        MoviesContainer.querySelector('#show-less-Episode').classList.add('hidden');
+    }
 }
+
+
+
+
+
+// function showMoreEpisode() {
+//     const EpisodesList = document.querySelectorAll('.episode-content');
+//     let hasRemaininghiddenCards = false;
+//     EpisodesList.forEach(list => {
+//         const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards'));
+//         hiddenCards.slice(0, 3).forEach(card => {
+//             if (card.style.display = 'none') {
+//                 card.style.display = 'flex';
+//             }
+//             else {
+//                 card.style.display = 'flex';
+//             }
+//         });
+//         if (hiddenCards.length > 3) {
+//             hasRemaininghiddenCards = true;
+//         }
+//         list.querySelector('.showMoreEpisode-down').style.display = hasRemaininghiddenCards ? 'block' : 'none';
+//         list.querySelector('#show-less-Episode').classList.remove('hidden')
+//     });
+// }
+// function showLessEpisode() {
+//     const EpisodesList = document.querySelectorAll('.episode-content');
+//     let hasRemainingVisibleCards = false;
+//     EpisodesList.forEach(list => {
+//         const visibleCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: flex;"]'));
+//         visibleCards.slice(-3).forEach(card => {
+//             card.style.display = 'none';
+//         });
+//         const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards[style="display: flex;"]'));
+//         if (remainingVisible.length > 0) {
+//             hasRemainingVisibleCards = true;
+//         }
+//         list.querySelector('.showMoreEpisode-down').style.display = 'block';
+//         if (!hasRemainingVisibleCards) {
+//             list.querySelector('#show-less-Episode').classList.add('hidden')
+//         }
+//     });
+// }
 async function handlePlayButtonClick(videoUrl) {
     const videoModal = document.querySelector('.video-modal');
     const youtubePlayer = videoModal.querySelector('#youtube-player');
