@@ -43,9 +43,8 @@ function showMoreEpisode() {
     document.querySelectorAll('.episode-content').forEach(list => {
         const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards.hidden'));
         hiddenCards.slice(0, 3).forEach(card => {
-            card.classList.add('visible');
+            card.classList.add('block');
             card.classList.remove('hidden');
-            console.log(card)
         });
         if (hiddenCards.length > 3) {
             hasRemainingCards = true;
@@ -59,12 +58,12 @@ function showLessEpisode() {
     let hasRemainingVisibleCards = false;
 
     document.querySelectorAll('.episode-content').forEach(list => {
-        const visibleCards = Array.from(list.querySelectorAll('.visible'));
+        const visibleCards = Array.from(list.querySelectorAll('.block'));
         visibleCards.slice(-3).forEach(card => {
-            card.classList.remove('visible');
+            card.classList.remove('block');
             card.classList.add('hidden');
         });
-        const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards.visible'));
+        const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards.block'));
         if (remainingVisible.length > 0) {
             hasRemainingVisibleCards = true;
         }
