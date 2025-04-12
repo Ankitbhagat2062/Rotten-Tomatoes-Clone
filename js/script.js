@@ -39,7 +39,7 @@ function showMoreEpisode() {
     const moviesLists = document.querySelector('.episode-content');
     let hasRemainingCards = false;
 
-    moviesLists.forEach(list => {
+    document.querySelector('.episode-content').forEach(list => {
         const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: none;"]'));
         hiddenCards.slice(0, 3).forEach(card => {
             card.style.display = 'block';
@@ -55,7 +55,7 @@ function showLessEpisode() {
     const moviesLists = document.querySelector('.episode-content');
     let hasRemainingVisibleCards = false;
 
-    moviesLists.forEach(list => {
+    document.querySelector('.episode-content').forEach(list => {
         const visibleCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: block;"]'));
         visibleCards.slice(-3).forEach(card => {
             card.style.display = 'none';
