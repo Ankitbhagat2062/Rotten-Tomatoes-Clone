@@ -48,8 +48,8 @@ function showMoreEpisode() {
             hasRemainingCards = true;
         }
     });
-    MoviesContainer.querySelector('.showMoreEpisode-down').style.display = hasRemainingCards ? 'block' : 'none';
-    MoviesContainer.querySelector('#show-less-Episode').classList.remove('hidden');
+    moviesLists.querySelector('.showMoreEpisode-down').style.display = hasRemainingCards ? 'block' : 'none';
+    moviesLists.querySelector('#show-less-Episode').classList.remove('hidden');
 }
 function showLessEpisode() {
     const moviesLists = document.querySelectorAll('.episode-content');
@@ -65,9 +65,9 @@ function showLessEpisode() {
             hasRemainingVisibleCards = true;
         }
     });
-    MoviesContainer.querySelector('.showMoreEpisode-down').style.display = 'block';
+    moviesLists.querySelector('.showMoreEpisode-down').style.display = 'block';
     if (!hasRemainingVisibleCards) {
-        MoviesContainer.querySelector('#show-less-Episode').classList.add('hidden');
+        moviesLists.querySelector('#show-less-Episode').classList.add('hidden');
     }
 }
 
