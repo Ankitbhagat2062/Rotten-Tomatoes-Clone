@@ -35,14 +35,17 @@ function showLessCards() {
         MoviesContainer.querySelector('#show-less-btn').classList.add('hidden');
     }
 }
+
 function showMoreEpisode() {
     const moviesLists = document.querySelector('.episode-content');
     let hasRemainingCards = false;
 
     document.querySelectorAll('.episode-content').forEach(list => {
-        const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: none;"]'));
+        const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards.hidden'));
         hiddenCards.slice(0, 3).forEach(card => {
-            card.style.display = 'block';
+            card.classList.add('visible');
+            card.classList.remove('hidden');
+            console.log(card)
         });
         if (hiddenCards.length > 3) {
             hasRemainingCards = true;
@@ -56,11 +59,12 @@ function showLessEpisode() {
     let hasRemainingVisibleCards = false;
 
     document.querySelectorAll('.episode-content').forEach(list => {
-        const visibleCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: block;"]'));
+        const visibleCards = Array.from(list.querySelectorAll('.visible'));
         visibleCards.slice(-3).forEach(card => {
-            card.style.display = 'none';
+            card.classList.remove('visible');
+            card.classList.add('hidden');
         });
-        const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards[style="display: block;"]'));
+        const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards.visible'));
         if (remainingVisible.length > 0) {
             hasRemainingVisibleCards = true;
         }
@@ -71,48 +75,6 @@ function showLessEpisode() {
     }
 }
 
-
-
-
-
-// function showMoreEpisode() {
-//     const EpisodesList = document.querySelectorAll('.episode-content');
-//     let hasRemaininghiddenCards = false;
-//     EpisodesList.forEach(list => {
-//         const hiddenCards = Array.from(list.querySelectorAll('.hidden-cards'));
-//         hiddenCards.slice(0, 3).forEach(card => {
-//             if (card.style.display = 'none') {
-//                 card.style.display = 'flex';
-//             }
-//             else {
-//                 card.style.display = 'flex';
-//             }
-//         });
-//         if (hiddenCards.length > 3) {
-//             hasRemaininghiddenCards = true;
-//         }
-//         list.querySelector('.showMoreEpisode-down').style.display = hasRemaininghiddenCards ? 'block' : 'none';
-//         list.querySelector('#show-less-Episode').classList.remove('hidden')
-//     });
-// }
-// function showLessEpisode() {
-//     const EpisodesList = document.querySelectorAll('.episode-content');
-//     let hasRemainingVisibleCards = false;
-//     EpisodesList.forEach(list => {
-//         const visibleCards = Array.from(list.querySelectorAll('.hidden-cards[style="display: flex;"]'));
-//         visibleCards.slice(-3).forEach(card => {
-//             card.style.display = 'none';
-//         });
-//         const remainingVisible = Array.from(list.querySelectorAll('.hidden-cards[style="display: flex;"]'));
-//         if (remainingVisible.length > 0) {
-//             hasRemainingVisibleCards = true;
-//         }
-//         list.querySelector('.showMoreEpisode-down').style.display = 'block';
-//         if (!hasRemainingVisibleCards) {
-//             list.querySelector('#show-less-Episode').classList.add('hidden')
-//         }
-//     });
-// }
 async function handlePlayButtonClick(videoUrl) {
     const videoModal = document.querySelector('.video-modal');
     const youtubePlayer = videoModal.querySelector('#youtube-player');
