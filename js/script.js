@@ -46,7 +46,7 @@ function showMoreEpisode() {
         });
         if (hiddenCards.length > 3) {
             hasRemainingCards = true;
-        }
+        } 
     });
     moviesLists.querySelector('.showMoreEpisode-down').style.display = hasRemainingCards ? 'block' : 'none';
     moviesLists.querySelector('#show-less-Episode').classList.remove('hidden');
